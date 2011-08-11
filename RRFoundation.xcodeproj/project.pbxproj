@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7877B4A913F4291B0088EFE0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7877B4A813F4291B0088EFE0 /* Cocoa.framework */; };
 		7877B4B313F4291B0088EFE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7877B4B113F4291B0088EFE0 /* InfoPlist.strings */; };
 		7877B4BF13F4291B0088EFE0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7877B4BE13F4291B0088EFE0 /* SenTestingKit.framework */; };
 		7877B4C013F4291B0088EFE0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7877B4A813F4291B0088EFE0 /* Cocoa.framework */; };
@@ -15,6 +14,16 @@
 		7877B4C913F4291B0088EFE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7877B4C713F4291B0088EFE0 /* InfoPlist.strings */; };
 		7877B4CB13F4291B0088EFE0 /* RRFoundationTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 7877B4CA13F4291B0088EFE0 /* RRFoundationTests.h */; };
 		7877B4CD13F4291B0088EFE0 /* RRFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7877B4CC13F4291B0088EFE0 /* RRFoundationTests.m */; };
+		7877B4D813F4297F0088EFE0 /* NSRegularExpression+RRFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7877B4D613F4297F0088EFE0 /* NSRegularExpression+RRFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7877B4D913F4297F0088EFE0 /* NSRegularExpression+RRFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7877B4D713F4297F0088EFE0 /* NSRegularExpression+RRFoundation.m */; };
+		7877B4DB13F429E00088EFE0 /* RRFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7877B4DA13F429E00088EFE0 /* RRFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7877B4E013F42A280088EFE0 /* RRAppName.h in Headers */ = {isa = PBXBuildFile; fileRef = 7877B4DC13F42A280088EFE0 /* RRAppName.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7877B4E113F42A280088EFE0 /* RRAppName.m in Sources */ = {isa = PBXBuildFile; fileRef = 7877B4DD13F42A280088EFE0 /* RRAppName.m */; };
+		7877B4E213F42A280088EFE0 /* RRAppSupportFolder.h in Headers */ = {isa = PBXBuildFile; fileRef = 7877B4DE13F42A280088EFE0 /* RRAppSupportFolder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7877B4E313F42A280088EFE0 /* RRAppSupportFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7877B4DF13F42A280088EFE0 /* RRAppSupportFolder.m */; };
+		7877B4F513F42AEA0088EFE0 /* NSSet+RRFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7877B4F313F42AEA0088EFE0 /* NSSet+RRFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7877B4F613F42AEA0088EFE0 /* NSSet+RRFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7877B4F413F42AEA0088EFE0 /* NSSet+RRFoundation.m */; };
+		78843E2613F42CDC00B569D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78843E2513F42CDC00B569D5 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +51,16 @@
 		7877B4C813F4291B0088EFE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7877B4CA13F4291B0088EFE0 /* RRFoundationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRFoundationTests.h; sourceTree = "<group>"; };
 		7877B4CC13F4291B0088EFE0 /* RRFoundationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRFoundationTests.m; sourceTree = "<group>"; };
+		7877B4D613F4297F0088EFE0 /* NSRegularExpression+RRFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSRegularExpression+RRFoundation.h"; sourceTree = "<group>"; };
+		7877B4D713F4297F0088EFE0 /* NSRegularExpression+RRFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSRegularExpression+RRFoundation.m"; sourceTree = "<group>"; };
+		7877B4DA13F429E00088EFE0 /* RRFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRFoundation.h; sourceTree = "<group>"; };
+		7877B4DC13F42A280088EFE0 /* RRAppName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRAppName.h; sourceTree = "<group>"; };
+		7877B4DD13F42A280088EFE0 /* RRAppName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRAppName.m; sourceTree = "<group>"; };
+		7877B4DE13F42A280088EFE0 /* RRAppSupportFolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRAppSupportFolder.h; sourceTree = "<group>"; };
+		7877B4DF13F42A280088EFE0 /* RRAppSupportFolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRAppSupportFolder.m; sourceTree = "<group>"; };
+		7877B4F313F42AEA0088EFE0 /* NSSet+RRFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+RRFoundation.h"; sourceTree = "<group>"; };
+		7877B4F413F42AEA0088EFE0 /* NSSet+RRFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+RRFoundation.m"; sourceTree = "<group>"; };
+		78843E2513F42CDC00B569D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7877B4A913F4291B0088EFE0 /* Cocoa.framework in Frameworks */,
+				78843E2613F42CDC00B569D5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +88,7 @@
 		7877B49913F4291B0088EFE0 = {
 			isa = PBXGroup;
 			children = (
+				78843E2513F42CDC00B569D5 /* Foundation.framework */,
 				7877B4AE13F4291B0088EFE0 /* RRFoundation */,
 				7877B4C413F4291B0088EFE0 /* RRFoundationTests */,
 				7877B4A713F4291B0088EFE0 /* Frameworks */,
@@ -108,6 +128,15 @@
 		7877B4AE13F4291B0088EFE0 /* RRFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				7877B4DA13F429E00088EFE0 /* RRFoundation.h */,
+				7877B4DC13F42A280088EFE0 /* RRAppName.h */,
+				7877B4DD13F42A280088EFE0 /* RRAppName.m */,
+				7877B4DE13F42A280088EFE0 /* RRAppSupportFolder.h */,
+				7877B4DF13F42A280088EFE0 /* RRAppSupportFolder.m */,
+				7877B4F313F42AEA0088EFE0 /* NSSet+RRFoundation.h */,
+				7877B4F413F42AEA0088EFE0 /* NSSet+RRFoundation.m */,
+				7877B4D613F4297F0088EFE0 /* NSRegularExpression+RRFoundation.h */,
+				7877B4D713F4297F0088EFE0 /* NSRegularExpression+RRFoundation.m */,
 				7877B4AF13F4291B0088EFE0 /* Supporting Files */,
 			);
 			path = RRFoundation;
@@ -149,6 +178,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7877B4D813F4297F0088EFE0 /* NSRegularExpression+RRFoundation.h in Headers */,
+				7877B4DB13F429E00088EFE0 /* RRFoundation.h in Headers */,
+				7877B4E013F42A280088EFE0 /* RRAppName.h in Headers */,
+				7877B4E213F42A280088EFE0 /* RRAppSupportFolder.h in Headers */,
+				7877B4F513F42AEA0088EFE0 /* NSSet+RRFoundation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +293,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7877B4D913F4297F0088EFE0 /* NSRegularExpression+RRFoundation.m in Sources */,
+				7877B4E113F42A280088EFE0 /* RRAppName.m in Sources */,
+				7877B4E313F42A280088EFE0 /* RRAppSupportFolder.m in Sources */,
+				7877B4F613F42AEA0088EFE0 /* NSSet+RRFoundation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,11 +342,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -330,11 +369,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
@@ -354,6 +394,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RRFoundation/RRFoundation-Prefix.pch";
 				INFOPLIST_FILE = "RRFoundation/RRFoundation-Info.plist";
+				LOCAL_LIBRARY_DIR = "@executable_path/..";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -368,6 +409,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RRFoundation/RRFoundation-Prefix.pch";
 				INFOPLIST_FILE = "RRFoundation/RRFoundation-Info.plist";
+				LOCAL_LIBRARY_DIR = "@executable_path/..";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -416,6 +458,7 @@
 				7877B4D213F4291B0088EFE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7877B4D313F4291B0088EFE0 /* Build configuration list for PBXNativeTarget "RRFoundationTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +467,7 @@
 				7877B4D513F4291B0088EFE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
