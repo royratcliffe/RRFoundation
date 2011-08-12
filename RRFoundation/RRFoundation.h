@@ -12,6 +12,7 @@
 
 #import <RRFoundation/NSSet+RRFoundation.h>
 #import <RRFoundation/NSRegularExpression+RRFoundation.h>
+#import <RRFoundation/NSBundle+RRFoundation.h>
 
 extern const unsigned char RRFoundationVersionString[];
 extern const double RRFoundationVersionNumber;

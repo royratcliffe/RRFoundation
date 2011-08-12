@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7840E72F13F512A100788234 /* NSBundle+RRFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7840E72D13F512A100788234 /* NSBundle+RRFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7840E73013F512A100788234 /* NSBundle+RRFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7840E72E13F512A100788234 /* NSBundle+RRFoundation.m */; };
 		7877B4B313F4291B0088EFE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7877B4B113F4291B0088EFE0 /* InfoPlist.strings */; };
 		7877B4BF13F4291B0088EFE0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7877B4BE13F4291B0088EFE0 /* SenTestingKit.framework */; };
 		7877B4C013F4291B0088EFE0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7877B4A813F4291B0088EFE0 /* Cocoa.framework */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7840E72D13F512A100788234 /* NSBundle+RRFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+RRFoundation.h"; sourceTree = "<group>"; };
+		7840E72E13F512A100788234 /* NSBundle+RRFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+RRFoundation.m"; sourceTree = "<group>"; };
 		7877B4A513F4291B0088EFE0 /* RRFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RRFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7877B4A813F4291B0088EFE0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		7877B4AB13F4291B0088EFE0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -137,6 +141,8 @@
 				7877B4F413F42AEA0088EFE0 /* NSSet+RRFoundation.m */,
 				7877B4D613F4297F0088EFE0 /* NSRegularExpression+RRFoundation.h */,
 				7877B4D713F4297F0088EFE0 /* NSRegularExpression+RRFoundation.m */,
+				7840E72D13F512A100788234 /* NSBundle+RRFoundation.h */,
+				7840E72E13F512A100788234 /* NSBundle+RRFoundation.m */,
 				7877B4AF13F4291B0088EFE0 /* Supporting Files */,
 			);
 			path = RRFoundation;
@@ -183,6 +189,7 @@
 				7877B4E013F42A280088EFE0 /* RRAppName.h in Headers */,
 				7877B4E213F42A280088EFE0 /* RRAppSupportFolder.h in Headers */,
 				7877B4F513F42AEA0088EFE0 /* NSSet+RRFoundation.h in Headers */,
+				7840E72F13F512A100788234 /* NSBundle+RRFoundation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +304,7 @@
 				7877B4E113F42A280088EFE0 /* RRAppName.m in Sources */,
 				7877B4E313F42A280088EFE0 /* RRAppSupportFolder.m in Sources */,
 				7877B4F613F42AEA0088EFE0 /* NSSet+RRFoundation.m in Sources */,
+				7840E73013F512A100788234 /* NSBundle+RRFoundation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
