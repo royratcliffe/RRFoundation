@@ -14,5 +14,4 @@
 #import <RRFoundation/NSRegularExpression+RRFoundation.h>
 #import <RRFoundation/NSBundle+RRFoundation.h>
 
-extern const unsigned char RRFoundationVersionString[];
-extern const double RRFoundationVersionNumber;
+#import <RRFoundation/AppleGenericVersioning.h>
