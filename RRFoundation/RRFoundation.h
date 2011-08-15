@@ -14,4 +14,4 @@
 #import <RRFoundation/NSRegularExpression+RRFoundation.h>
 #import <RRFoundation/NSBundle+RRFoundation.h>
 
-#import <RRFoundation/AppleGenericVersioning.h>
+#import <RRFoundation/Versioning.h>

@@ -26,8 +26,8 @@
 		7877B4F513F42AEA0088EFE0 /* NSSet+RRFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7877B4F313F42AEA0088EFE0 /* NSSet+RRFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7877B4F613F42AEA0088EFE0 /* NSSet+RRFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7877B4F413F42AEA0088EFE0 /* NSSet+RRFoundation.m */; };
 		78843E2613F42CDC00B569D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78843E2513F42CDC00B569D5 /* Foundation.framework */; };
-		78EF6E9A13F8747600138A8F /* AppleGenericVersioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 78EF6E9813F8746800138A8F /* AppleGenericVersioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78EF6E9B13F8747600138A8F /* AppleGenericVersioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EF6E9913F8746800138A8F /* AppleGenericVersioning.m */; };
+		78EF6E9A13F8747600138A8F /* Versioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 78EF6E9813F8746800138A8F /* Versioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78EF6E9B13F8747600138A8F /* Versioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EF6E9913F8746800138A8F /* Versioning.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +67,8 @@
 		7877B4F313F42AEA0088EFE0 /* NSSet+RRFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+RRFoundation.h"; sourceTree = "<group>"; };
 		7877B4F413F42AEA0088EFE0 /* NSSet+RRFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+RRFoundation.m"; sourceTree = "<group>"; };
 		78843E2513F42CDC00B569D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		78EF6E9813F8746800138A8F /* AppleGenericVersioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppleGenericVersioning.h; sourceTree = "<group>"; };
-		78EF6E9913F8746800138A8F /* AppleGenericVersioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleGenericVersioning.m; sourceTree = "<group>"; };
+		78EF6E9813F8746800138A8F /* Versioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Versioning.h; sourceTree = "<group>"; };
+		78EF6E9913F8746800138A8F /* Versioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Versioning.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,8 +147,8 @@
 				7877B4D713F4297F0088EFE0 /* NSRegularExpression+RRFoundation.m */,
 				7840E72D13F512A100788234 /* NSBundle+RRFoundation.h */,
 				7840E72E13F512A100788234 /* NSBundle+RRFoundation.m */,
-				78EF6E9813F8746800138A8F /* AppleGenericVersioning.h */,
-				78EF6E9913F8746800138A8F /* AppleGenericVersioning.m */,
+				78EF6E9813F8746800138A8F /* Versioning.h */,
+				78EF6E9913F8746800138A8F /* Versioning.m */,
 				7877B4AF13F4291B0088EFE0 /* Supporting Files */,
 			);
 			path = RRFoundation;
@@ -196,7 +196,7 @@
 				7877B4E213F42A280088EFE0 /* RRAppSupportFolder.h in Headers */,
 				7877B4F513F42AEA0088EFE0 /* NSSet+RRFoundation.h in Headers */,
 				7840E72F13F512A100788234 /* NSBundle+RRFoundation.h in Headers */,
-				78EF6E9A13F8747600138A8F /* AppleGenericVersioning.h in Headers */,
+				78EF6E9A13F8747600138A8F /* Versioning.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +312,7 @@
 				7877B4E313F42A280088EFE0 /* RRAppSupportFolder.m in Sources */,
 				7877B4F613F42AEA0088EFE0 /* NSSet+RRFoundation.m in Sources */,
 				7840E73013F512A100788234 /* NSBundle+RRFoundation.m in Sources */,
-				78EF6E9B13F8747600138A8F /* AppleGenericVersioning.m in Sources */,
+				78EF6E9B13F8747600138A8F /* Versioning.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

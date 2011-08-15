@@ -1,4 +1,4 @@
-/* RRFoundation AppleGenericVersioning.m
+/* RRFoundation Versioning.h
  *
  * Copyright © 2011, Roy Ratcliffe, Pioneering Software, United Kingdom
  *
@@ -22,20 +22,15 @@
  *
  ******************************************************************************/
 
-#import "AppleGenericVersioning.h"
+#import <Foundation/Foundation.h>
 
-NSString *RRFoundationVersionString()
-{
-	// The implementation assumes that the raw C-language version string
-	// terminates with null. It also trims assuming that the very last character
-	// is a terminating line feed. Also assumes UTF-8 encoding.
-	static NSString *versionString;
-	if (versionString == nil)
-	{
-		versionString = [[[NSString stringWithCString:(const char *)kRRFoundationVersionString encoding:NSUTF8StringEncoding] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] retain];
-		atexit_b(^(void) {
-			[versionString release];
-		});
-	}
-	return versionString;
-}
+extern const unsigned char kRRFoundationVersionString[];
+extern const double kRRFoundationVersionNumber;
+
+/*!
+ * Answers the current Apple-generic versioning-formatted version string. The
+ * version string has been trimmed. It has no leading or trailing whitespace or
+ * newlines. Note that the raw C-based version string contrastingly has a single
+ * terminating newline character.
+ */
+NSString *RRFoundationVersionString(void);
