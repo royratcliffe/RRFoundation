@@ -25,5 +25,10 @@
 #import <SenTestingKit/SenTestingKit.h>
 
 @interface RRFoundationTests : SenTestCase
-
+{
+	NSString *appIdentifier;
+	NSString *libraryPath;
+	NSString *cachesPath;
+	NSString *appCachesPath;
+}
 @end

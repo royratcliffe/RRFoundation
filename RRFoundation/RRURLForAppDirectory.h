@@ -1,4 +1,4 @@
-// RRFoundation NSSet+RRFoundation.m
+// RRFoundation RRURLForAppDirectory.h
 //
 // Copyright © 2011, Roy Ratcliffe, Pioneering Software, United Kingdom
 //
@@ -22,34 +22,21 @@
 //
 //------------------------------------------------------------------------------
 
-#import "NSSet+RRFoundation.h"
+#import <Foundation/Foundation.h>
 
-@implementation NSSet(RRFoundation)
+extern NSString *const kRRURLForAppDirectoryErrorDomain;
 
-// Temporarily copy the set to a mutable set. This becomes redundant if the set
-// is already a mutable set. Then perform the intersection, minus or union with
-// self and the given set. Finally copy the mutable set back to a immutable copy
-// of the result.
-
-- (NSSet *)setByIntersectingSet:(NSSet *)aSet
-{
-	NSMutableSet *set;
-	[set = [NSMutableSet setWithSet:self] intersectSet:aSet];
-	return [[set copy] autorelease];
-}
-
-- (NSSet *)setByRemovingSet:(NSSet *)aSet
-{
-	NSMutableSet *set;
-	[set = [NSMutableSet setWithSet:self] minusSet:aSet];
-	return [[set copy] autorelease];
-}
-
-- (NSSet *)setByAddingSet:(NSSet *)aSet
-{
-	NSMutableSet *set;
-	[set = [NSMutableSet setWithSet:self] unionSet:aSet];
-	return [[set copy] autorelease];
-}
-
-@end
+/*!
+ * Identifies, creating if necessary, an application-specific directory in the
+ * user domain. The search path directory argument typically specifies library,
+ * caches or application support; specifically, NSLibraryDirectory,
+ * NSCachesDirectory or NSApplicationSupportDirectory respectively. These are in
+ * fact the only places to which you can write application-specific files if you
+ * want to submit your application to the Mac App Store. See Mac OS X developer
+ * library, File-System Usage Requirements for the Mac App Store. The
+ * appIdentifier corresponds to one of: your application's bundle identifer, its
+ * name, or your company's name.
+ *
+ * The implementation uses file manager methods only available in OS X 10.6 or above.
+ */
+NSURL *RRURLForAppDirectoryInUserDomain(NSSearchPathDirectory directory, NSString *appIdentifier, NSError **outError);
