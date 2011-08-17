@@ -26,6 +26,11 @@
 
 extern NSString *const kRRURLForAppDirectoryErrorDomain;
 
+enum
+{
+	kRRURLForAppDirectoryFoundFileError = 'ADff',
+};
+
 /*!
  * Identifies, creating if necessary, an application-specific directory in the
  * user domain. The search path directory argument typically specifies library,
@@ -37,6 +42,7 @@ extern NSString *const kRRURLForAppDirectoryErrorDomain;
  * appIdentifier corresponds to one of: your application's bundle identifer, its
  * name, or your company's name.
  *
- * The implementation uses file manager methods only available in OS X 10.6 or above.
+ * The implementation uses file manager methods only available in OS X 10.6 or
+ * above.
  */
 NSURL *RRURLForAppDirectoryInUserDomain(NSSearchPathDirectory directory, NSString *appIdentifier, NSError **outError);

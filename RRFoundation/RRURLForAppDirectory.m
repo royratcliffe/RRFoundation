@@ -51,7 +51,7 @@ NSURL *RRURLForAppDirectoryInUserDomain(NSSearchPathDirectory directory, NSStrin
 		}
 		else if (![[resourceValues objectForKey:NSURLIsDirectoryKey] boolValue])
 		{
-			error = [NSError errorWithDomain:kRRURLForAppDirectoryErrorDomain code:999 userInfo:[NSDictionary dictionaryWithObject:[NSString stringWithFormat:@"Expected to find a folder to store application-specific information but instead found a file (%@)", [appDirectoryURL path]] forKey:NSLocalizedDescriptionKey]];
+			error = [NSError errorWithDomain:kRRURLForAppDirectoryErrorDomain code:kRRURLForAppDirectoryFoundFileError userInfo:[NSDictionary dictionaryWithObject:[NSString stringWithFormat:@"Expected to find a folder to store application-specific information but instead found a file (%@)", [appDirectoryURL path]] forKey:NSLocalizedDescriptionKey]];
 			continue;
 		}
 		return appDirectoryURL;

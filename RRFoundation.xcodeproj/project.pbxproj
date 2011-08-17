@@ -23,8 +23,6 @@
 		7877B4DB13F429E00088EFE0 /* RRFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7877B4DA13F429E00088EFE0 /* RRFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7877B4E013F42A280088EFE0 /* RRAppName.h in Headers */ = {isa = PBXBuildFile; fileRef = 7877B4DC13F42A280088EFE0 /* RRAppName.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7877B4E113F42A280088EFE0 /* RRAppName.m in Sources */ = {isa = PBXBuildFile; fileRef = 7877B4DD13F42A280088EFE0 /* RRAppName.m */; };
-		7877B4E213F42A280088EFE0 /* RRAppSupportFolder.h in Headers */ = {isa = PBXBuildFile; fileRef = 7877B4DE13F42A280088EFE0 /* RRAppSupportFolder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7877B4E313F42A280088EFE0 /* RRAppSupportFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7877B4DF13F42A280088EFE0 /* RRAppSupportFolder.m */; };
 		7877B4F513F42AEA0088EFE0 /* NSSet+RRFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7877B4F313F42AEA0088EFE0 /* NSSet+RRFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7877B4F613F42AEA0088EFE0 /* NSSet+RRFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7877B4F413F42AEA0088EFE0 /* NSSet+RRFoundation.m */; };
 		78843E2613F42CDC00B569D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78843E2513F42CDC00B569D5 /* Foundation.framework */; };
@@ -66,8 +64,6 @@
 		7877B4DA13F429E00088EFE0 /* RRFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRFoundation.h; sourceTree = "<group>"; };
 		7877B4DC13F42A280088EFE0 /* RRAppName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRAppName.h; sourceTree = "<group>"; };
 		7877B4DD13F42A280088EFE0 /* RRAppName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRAppName.m; sourceTree = "<group>"; };
-		7877B4DE13F42A280088EFE0 /* RRAppSupportFolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRAppSupportFolder.h; sourceTree = "<group>"; };
-		7877B4DF13F42A280088EFE0 /* RRAppSupportFolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRAppSupportFolder.m; sourceTree = "<group>"; };
 		7877B4F313F42AEA0088EFE0 /* NSSet+RRFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+RRFoundation.h"; sourceTree = "<group>"; };
 		7877B4F413F42AEA0088EFE0 /* NSSet+RRFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+RRFoundation.m"; sourceTree = "<group>"; };
 		78843E2513F42CDC00B569D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -143,8 +139,6 @@
 				7877B4DA13F429E00088EFE0 /* RRFoundation.h */,
 				7877B4DC13F42A280088EFE0 /* RRAppName.h */,
 				7877B4DD13F42A280088EFE0 /* RRAppName.m */,
-				7877B4DE13F42A280088EFE0 /* RRAppSupportFolder.h */,
-				7877B4DF13F42A280088EFE0 /* RRAppSupportFolder.m */,
 				7868D2A513FA55AF00BBA1FC /* RRURLForAppDirectory.h */,
 				7868D2A613FA55AF00BBA1FC /* RRURLForAppDirectory.m */,
 				7877B4F313F42AEA0088EFE0 /* NSSet+RRFoundation.h */,
@@ -199,7 +193,6 @@
 				7877B4D813F4297F0088EFE0 /* NSRegularExpression+RRFoundation.h in Headers */,
 				7877B4DB13F429E00088EFE0 /* RRFoundation.h in Headers */,
 				7877B4E013F42A280088EFE0 /* RRAppName.h in Headers */,
-				7877B4E213F42A280088EFE0 /* RRAppSupportFolder.h in Headers */,
 				7877B4F513F42AEA0088EFE0 /* NSSet+RRFoundation.h in Headers */,
 				7840E72F13F512A100788234 /* NSBundle+RRFoundation.h in Headers */,
 				78EF6E9A13F8747600138A8F /* Versioning.h in Headers */,
@@ -316,7 +309,6 @@
 			files = (
 				7877B4D913F4297F0088EFE0 /* NSRegularExpression+RRFoundation.m in Sources */,
 				7877B4E113F42A280088EFE0 /* RRAppName.m in Sources */,
-				7877B4E313F42A280088EFE0 /* RRAppSupportFolder.m in Sources */,
 				7877B4F613F42AEA0088EFE0 /* NSSet+RRFoundation.m in Sources */,
 				7840E73013F512A100788234 /* NSBundle+RRFoundation.m in Sources */,
 				78EF6E9B13F8747600138A8F /* Versioning.m in Sources */,
