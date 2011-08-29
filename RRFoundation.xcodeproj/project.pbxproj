@@ -96,7 +96,6 @@
 		7877B49913F4291B0088EFE0 = {
 			isa = PBXGroup;
 			children = (
-				78843E2513F42CDC00B569D5 /* Foundation.framework */,
 				7877B4AE13F4291B0088EFE0 /* RRFoundation */,
 				7877B4C413F4291B0088EFE0 /* RRFoundationTests */,
 				7877B4A713F4291B0088EFE0 /* Frameworks */,
@@ -116,6 +115,7 @@
 		7877B4A713F4291B0088EFE0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				78843E2513F42CDC00B569D5 /* Foundation.framework */,
 				7877B4A813F4291B0088EFE0 /* Cocoa.framework */,
 				7877B4BE13F4291B0088EFE0 /* SenTestingKit.framework */,
 				7877B4AA13F4291B0088EFE0 /* Other Frameworks */,
