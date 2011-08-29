@@ -23,8 +23,7 @@
 //------------------------------------------------------------------------------
 
 #import "RRFoundationTests.h"
-#import "NSRegularExpression+RRFoundation.h"
-#import "RRURLForAppDirectory.h"
+#import <RRFoundation/RRFoundation.h>
 
 @implementation RRFoundationTests
 
@@ -51,6 +50,7 @@
 	}], @"active::Record::Errors", nil);
 }
 
+#if !TARGET_OS_IPHONE
 - (void)testURLForDirectory
 {
 	NSError *error = nil;
@@ -58,7 +58,9 @@
 	STAssertEqualObjects([appCachesURL path], appCachesPath, nil);
 	STAssertNil(error, @"%@", error);
 }
+#endif
 
+#if !TARGET_OS_IPHONE
 - (void)testURLForDirectoryButInsteadFindAFile
 {
 	NSError *error = nil;
@@ -70,5 +72,6 @@
 	STAssertEquals([error code], (NSInteger)kRRURLForAppDirectoryFoundFileError, nil);
 	STAssertTrue([fileManager removeItemAtPath:appCachesPath error:NULL], nil);
 }
+#endif
 
 @end
