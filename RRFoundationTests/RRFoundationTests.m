@@ -29,18 +29,22 @@
 
 - (void)setUp
 {
+#if !TARGET_OS_IPHONE
 	appIdentifier = [@"uk.co.pioneeringsoftware.RRFoundation" retain];
 	libraryPath = [[NSHomeDirectory() stringByAppendingPathComponent:@"Library"] retain];
 	cachesPath = [[libraryPath stringByAppendingPathComponent:@"Caches"] retain];
 	appCachesPath = [[cachesPath stringByAppendingPathComponent:appIdentifier] retain];
+#endif
 }
 
 - (void)tearDown
 {
+#if !TARGET_OS_IPHONE
 	[appIdentifier release];
 	[libraryPath release];
 	[cachesPath release];
 	[appCachesPath release];
+#endif
 }
 
 - (void)testRegularExpressions

@@ -26,9 +26,11 @@
 
 @interface RRFoundationTests : SenTestCase
 {
+@private
 	NSString *appIdentifier;
 	NSString *libraryPath;
 	NSString *cachesPath;
 	NSString *appCachesPath;
 }
+
 @end

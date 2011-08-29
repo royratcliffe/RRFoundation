@@ -7,178 +7,264 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7840E72F13F512A100788234 /* NSBundle+RRFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7840E72D13F512A100788234 /* NSBundle+RRFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7840E73013F512A100788234 /* NSBundle+RRFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7840E72E13F512A100788234 /* NSBundle+RRFoundation.m */; };
-		7868D2A713FA55AF00BBA1FC /* RRURLForAppDirectory.h in Headers */ = {isa = PBXBuildFile; fileRef = 7868D2A513FA55AF00BBA1FC /* RRURLForAppDirectory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7868D2A813FA55AF00BBA1FC /* RRURLForAppDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7868D2A613FA55AF00BBA1FC /* RRURLForAppDirectory.m */; };
-		7877B4B313F4291B0088EFE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7877B4B113F4291B0088EFE0 /* InfoPlist.strings */; };
-		7877B4BF13F4291B0088EFE0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7877B4BE13F4291B0088EFE0 /* SenTestingKit.framework */; };
-		7877B4C013F4291B0088EFE0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7877B4A813F4291B0088EFE0 /* Cocoa.framework */; };
-		7877B4C313F4291B0088EFE0 /* RRFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7877B4A513F4291B0088EFE0 /* RRFoundation.framework */; };
-		7877B4C913F4291B0088EFE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7877B4C713F4291B0088EFE0 /* InfoPlist.strings */; };
-		7877B4CB13F4291B0088EFE0 /* RRFoundationTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 7877B4CA13F4291B0088EFE0 /* RRFoundationTests.h */; };
-		7877B4CD13F4291B0088EFE0 /* RRFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7877B4CC13F4291B0088EFE0 /* RRFoundationTests.m */; };
-		7877B4D813F4297F0088EFE0 /* NSRegularExpression+RRFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7877B4D613F4297F0088EFE0 /* NSRegularExpression+RRFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7877B4D913F4297F0088EFE0 /* NSRegularExpression+RRFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7877B4D713F4297F0088EFE0 /* NSRegularExpression+RRFoundation.m */; };
-		7877B4DB13F429E00088EFE0 /* RRFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7877B4DA13F429E00088EFE0 /* RRFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7877B4E013F42A280088EFE0 /* RRAppName.h in Headers */ = {isa = PBXBuildFile; fileRef = 7877B4DC13F42A280088EFE0 /* RRAppName.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7877B4E113F42A280088EFE0 /* RRAppName.m in Sources */ = {isa = PBXBuildFile; fileRef = 7877B4DD13F42A280088EFE0 /* RRAppName.m */; };
-		7877B4F513F42AEA0088EFE0 /* NSSet+RRFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7877B4F313F42AEA0088EFE0 /* NSSet+RRFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7877B4F613F42AEA0088EFE0 /* NSSet+RRFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7877B4F413F42AEA0088EFE0 /* NSSet+RRFoundation.m */; };
-		78843E2613F42CDC00B569D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78843E2513F42CDC00B569D5 /* Foundation.framework */; };
-		78EF6E9A13F8747600138A8F /* Versioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 78EF6E9813F8746800138A8F /* Versioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78EF6E9B13F8747600138A8F /* Versioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EF6E9913F8746800138A8F /* Versioning.m */; };
+		78DCC2EE140BE3620048D4F0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCC2ED140BE3620048D4F0 /* Cocoa.framework */; };
+		78DCC2F8140BE3620048D4F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78DCC2F6140BE3620048D4F0 /* InfoPlist.strings */; };
+		78DCC304140BE3620048D4F0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCC303140BE3620048D4F0 /* SenTestingKit.framework */; };
+		78DCC305140BE3620048D4F0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCC2ED140BE3620048D4F0 /* Cocoa.framework */; };
+		78DCC308140BE3620048D4F0 /* RRFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCC2EA140BE3620048D4F0 /* RRFoundation.framework */; };
+		78DCC30E140BE3630048D4F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78DCC30C140BE3630048D4F0 /* InfoPlist.strings */; };
+		78DCC310140BE3630048D4F0 /* RRFoundationTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 78DCC30F140BE3630048D4F0 /* RRFoundationTests.h */; };
+		78DCC312140BE3630048D4F0 /* RRFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DCC311140BE3630048D4F0 /* RRFoundationTests.m */; };
+		78DCC32B140BE45F0048D4F0 /* NSBundle+RRFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 78DCC31F140BE45E0048D4F0 /* NSBundle+RRFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78DCC32C140BE45F0048D4F0 /* NSBundle+RRFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DCC320140BE45E0048D4F0 /* NSBundle+RRFoundation.m */; };
+		78DCC32D140BE45F0048D4F0 /* NSRegularExpression+RRFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 78DCC321140BE45E0048D4F0 /* NSRegularExpression+RRFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78DCC32E140BE45F0048D4F0 /* NSRegularExpression+RRFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DCC322140BE45E0048D4F0 /* NSRegularExpression+RRFoundation.m */; };
+		78DCC32F140BE45F0048D4F0 /* NSSet+RRFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 78DCC323140BE45E0048D4F0 /* NSSet+RRFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78DCC330140BE45F0048D4F0 /* NSSet+RRFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DCC324140BE45E0048D4F0 /* NSSet+RRFoundation.m */; };
+		78DCC331140BE45F0048D4F0 /* RRAppName.h in Headers */ = {isa = PBXBuildFile; fileRef = 78DCC325140BE45E0048D4F0 /* RRAppName.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78DCC332140BE45F0048D4F0 /* RRAppName.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DCC326140BE45E0048D4F0 /* RRAppName.m */; };
+		78DCC333140BE45F0048D4F0 /* RRURLForAppDirectory.h in Headers */ = {isa = PBXBuildFile; fileRef = 78DCC327140BE45E0048D4F0 /* RRURLForAppDirectory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78DCC334140BE45F0048D4F0 /* RRURLForAppDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DCC328140BE45E0048D4F0 /* RRURLForAppDirectory.m */; };
+		78DCC335140BE45F0048D4F0 /* Versioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 78DCC329140BE45E0048D4F0 /* Versioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78DCC336140BE45F0048D4F0 /* Versioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DCC32A140BE45E0048D4F0 /* Versioning.m */; };
+		78DCC340140BE4E40048D4F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCC33F140BE4E40048D4F0 /* Foundation.framework */; };
+		78DCC34D140BE4E40048D4F0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCC303140BE3620048D4F0 /* SenTestingKit.framework */; };
+		78DCC350140BE4E40048D4F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCC33F140BE4E40048D4F0 /* Foundation.framework */; };
+		78DCC355140BE4E40048D4F0 /* libRRFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCC33E140BE4E40048D4F0 /* libRRFoundation.a */; };
+		78DCC35B140BE4E40048D4F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78DCC359140BE4E40048D4F0 /* InfoPlist.strings */; };
+		78DCC366140BE5390048D4F0 /* RRFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DCC311140BE3630048D4F0 /* RRFoundationTests.m */; };
+		78DCC367140BE5540048D4F0 /* RRFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 78DCC2FA140BE3620048D4F0 /* RRFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78DCC368140BE5590048D4F0 /* RRFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 78DCC2FA140BE3620048D4F0 /* RRFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78DCC369140BE5590048D4F0 /* NSBundle+RRFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 78DCC31F140BE45E0048D4F0 /* NSBundle+RRFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78DCC36A140BE5590048D4F0 /* NSBundle+RRFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DCC320140BE45E0048D4F0 /* NSBundle+RRFoundation.m */; };
+		78DCC36B140BE5590048D4F0 /* NSRegularExpression+RRFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 78DCC321140BE45E0048D4F0 /* NSRegularExpression+RRFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78DCC36C140BE5590048D4F0 /* NSRegularExpression+RRFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DCC322140BE45E0048D4F0 /* NSRegularExpression+RRFoundation.m */; };
+		78DCC36D140BE5590048D4F0 /* NSSet+RRFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 78DCC323140BE45E0048D4F0 /* NSSet+RRFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78DCC36E140BE5590048D4F0 /* NSSet+RRFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DCC324140BE45E0048D4F0 /* NSSet+RRFoundation.m */; };
+		78DCC36F140BE5590048D4F0 /* RRAppName.h in Headers */ = {isa = PBXBuildFile; fileRef = 78DCC325140BE45E0048D4F0 /* RRAppName.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78DCC370140BE5590048D4F0 /* RRAppName.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DCC326140BE45E0048D4F0 /* RRAppName.m */; };
+		78DCC371140BE5590048D4F0 /* RRURLForAppDirectory.h in Headers */ = {isa = PBXBuildFile; fileRef = 78DCC327140BE45E0048D4F0 /* RRURLForAppDirectory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78DCC372140BE5590048D4F0 /* RRURLForAppDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DCC328140BE45E0048D4F0 /* RRURLForAppDirectory.m */; };
+		78DCC373140BE5590048D4F0 /* Versioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 78DCC329140BE45E0048D4F0 /* Versioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78DCC374140BE5590048D4F0 /* Versioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DCC32A140BE45E0048D4F0 /* Versioning.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7877B4C113F4291B0088EFE0 /* PBXContainerItemProxy */ = {
+		78DCC306140BE3620048D4F0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7877B49B13F4291B0088EFE0 /* Project object */;
+			containerPortal = 78DCC2E0140BE3620048D4F0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7877B4A413F4291B0088EFE0;
+			remoteGlobalIDString = 78DCC2E9140BE3620048D4F0;
 			remoteInfo = RRFoundation;
+		};
+		78DCC353140BE4E40048D4F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78DCC2E0140BE3620048D4F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78DCC33D140BE4E40048D4F0;
+			remoteInfo = RRFoundationLibrary;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7840E72D13F512A100788234 /* NSBundle+RRFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+RRFoundation.h"; sourceTree = "<group>"; };
-		7840E72E13F512A100788234 /* NSBundle+RRFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+RRFoundation.m"; sourceTree = "<group>"; };
-		7868D2A513FA55AF00BBA1FC /* RRURLForAppDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRURLForAppDirectory.h; sourceTree = "<group>"; };
-		7868D2A613FA55AF00BBA1FC /* RRURLForAppDirectory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRURLForAppDirectory.m; sourceTree = "<group>"; };
-		7877B4A513F4291B0088EFE0 /* RRFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RRFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7877B4A813F4291B0088EFE0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		7877B4AB13F4291B0088EFE0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		7877B4AC13F4291B0088EFE0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		7877B4AD13F4291B0088EFE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		7877B4B013F4291B0088EFE0 /* RRFoundation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RRFoundation-Info.plist"; sourceTree = "<group>"; };
-		7877B4B213F4291B0088EFE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7877B4B413F4291B0088EFE0 /* RRFoundation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RRFoundation-Prefix.pch"; sourceTree = "<group>"; };
-		7877B4BD13F4291B0088EFE0 /* RRFoundationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RRFoundationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7877B4BE13F4291B0088EFE0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		7877B4C613F4291B0088EFE0 /* RRFoundationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RRFoundationTests-Info.plist"; sourceTree = "<group>"; };
-		7877B4C813F4291B0088EFE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7877B4CA13F4291B0088EFE0 /* RRFoundationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRFoundationTests.h; sourceTree = "<group>"; };
-		7877B4CC13F4291B0088EFE0 /* RRFoundationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRFoundationTests.m; sourceTree = "<group>"; };
-		7877B4D613F4297F0088EFE0 /* NSRegularExpression+RRFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSRegularExpression+RRFoundation.h"; sourceTree = "<group>"; };
-		7877B4D713F4297F0088EFE0 /* NSRegularExpression+RRFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSRegularExpression+RRFoundation.m"; sourceTree = "<group>"; };
-		7877B4DA13F429E00088EFE0 /* RRFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRFoundation.h; sourceTree = "<group>"; };
-		7877B4DC13F42A280088EFE0 /* RRAppName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRAppName.h; sourceTree = "<group>"; };
-		7877B4DD13F42A280088EFE0 /* RRAppName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRAppName.m; sourceTree = "<group>"; };
-		7877B4F313F42AEA0088EFE0 /* NSSet+RRFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+RRFoundation.h"; sourceTree = "<group>"; };
-		7877B4F413F42AEA0088EFE0 /* NSSet+RRFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+RRFoundation.m"; sourceTree = "<group>"; };
-		78843E2513F42CDC00B569D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		78EF6E9813F8746800138A8F /* Versioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Versioning.h; sourceTree = "<group>"; };
-		78EF6E9913F8746800138A8F /* Versioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Versioning.m; sourceTree = "<group>"; };
+		78DCC2EA140BE3620048D4F0 /* RRFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RRFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78DCC2ED140BE3620048D4F0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		78DCC2F0140BE3620048D4F0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		78DCC2F1140BE3620048D4F0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		78DCC2F2140BE3620048D4F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		78DCC2F5140BE3620048D4F0 /* RRFoundation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RRFoundation-Info.plist"; sourceTree = "<group>"; };
+		78DCC2F7140BE3620048D4F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78DCC2F9140BE3620048D4F0 /* RRFoundation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RRFoundation-Prefix.pch"; sourceTree = "<group>"; };
+		78DCC2FA140BE3620048D4F0 /* RRFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRFoundation.h; sourceTree = "<group>"; };
+		78DCC302140BE3620048D4F0 /* RRFoundationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RRFoundationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78DCC303140BE3620048D4F0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		78DCC30B140BE3630048D4F0 /* RRFoundationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RRFoundationTests-Info.plist"; sourceTree = "<group>"; };
+		78DCC30D140BE3630048D4F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78DCC30F140BE3630048D4F0 /* RRFoundationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRFoundationTests.h; sourceTree = "<group>"; };
+		78DCC311140BE3630048D4F0 /* RRFoundationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRFoundationTests.m; sourceTree = "<group>"; };
+		78DCC31F140BE45E0048D4F0 /* NSBundle+RRFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+RRFoundation.h"; sourceTree = "<group>"; };
+		78DCC320140BE45E0048D4F0 /* NSBundle+RRFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+RRFoundation.m"; sourceTree = "<group>"; };
+		78DCC321140BE45E0048D4F0 /* NSRegularExpression+RRFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSRegularExpression+RRFoundation.h"; sourceTree = "<group>"; };
+		78DCC322140BE45E0048D4F0 /* NSRegularExpression+RRFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSRegularExpression+RRFoundation.m"; sourceTree = "<group>"; };
+		78DCC323140BE45E0048D4F0 /* NSSet+RRFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+RRFoundation.h"; sourceTree = "<group>"; };
+		78DCC324140BE45E0048D4F0 /* NSSet+RRFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+RRFoundation.m"; sourceTree = "<group>"; };
+		78DCC325140BE45E0048D4F0 /* RRAppName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRAppName.h; sourceTree = "<group>"; };
+		78DCC326140BE45E0048D4F0 /* RRAppName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRAppName.m; sourceTree = "<group>"; };
+		78DCC327140BE45E0048D4F0 /* RRURLForAppDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRURLForAppDirectory.h; sourceTree = "<group>"; };
+		78DCC328140BE45E0048D4F0 /* RRURLForAppDirectory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRURLForAppDirectory.m; sourceTree = "<group>"; };
+		78DCC329140BE45E0048D4F0 /* Versioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Versioning.h; sourceTree = "<group>"; };
+		78DCC32A140BE45E0048D4F0 /* Versioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Versioning.m; sourceTree = "<group>"; };
+		78DCC33E140BE4E40048D4F0 /* libRRFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRRFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		78DCC33F140BE4E40048D4F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		78DCC343140BE4E40048D4F0 /* RRFoundationLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RRFoundationLibrary-Prefix.pch"; sourceTree = "<group>"; };
+		78DCC34C140BE4E40048D4F0 /* RRFoundationLibraryTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RRFoundationLibraryTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78DCC358140BE4E40048D4F0 /* RRFoundationLibraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RRFoundationLibraryTests-Info.plist"; sourceTree = "<group>"; };
+		78DCC35A140BE4E40048D4F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7877B4A113F4291B0088EFE0 /* Frameworks */ = {
+		78DCC2E6140BE3620048D4F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78843E2613F42CDC00B569D5 /* Foundation.framework in Frameworks */,
+				78DCC2EE140BE3620048D4F0 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7877B4B913F4291B0088EFE0 /* Frameworks */ = {
+		78DCC2FE140BE3620048D4F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7877B4BF13F4291B0088EFE0 /* SenTestingKit.framework in Frameworks */,
-				7877B4C013F4291B0088EFE0 /* Cocoa.framework in Frameworks */,
-				7877B4C313F4291B0088EFE0 /* RRFoundation.framework in Frameworks */,
+				78DCC304140BE3620048D4F0 /* SenTestingKit.framework in Frameworks */,
+				78DCC305140BE3620048D4F0 /* Cocoa.framework in Frameworks */,
+				78DCC308140BE3620048D4F0 /* RRFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78DCC33B140BE4E40048D4F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78DCC340140BE4E40048D4F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78DCC348140BE4E40048D4F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78DCC34D140BE4E40048D4F0 /* SenTestingKit.framework in Frameworks */,
+				78DCC350140BE4E40048D4F0 /* Foundation.framework in Frameworks */,
+				78DCC355140BE4E40048D4F0 /* libRRFoundation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7877B49913F4291B0088EFE0 = {
+		78DCC2DE140BE3620048D4F0 = {
 			isa = PBXGroup;
 			children = (
-				7877B4AE13F4291B0088EFE0 /* RRFoundation */,
-				7877B4C413F4291B0088EFE0 /* RRFoundationTests */,
-				7877B4A713F4291B0088EFE0 /* Frameworks */,
-				7877B4A613F4291B0088EFE0 /* Products */,
+				78DCC2F3140BE3620048D4F0 /* RRFoundation */,
+				78DCC309140BE3620048D4F0 /* RRFoundationTests */,
+				78DCC341140BE4E40048D4F0 /* RRFoundationLibrary */,
+				78DCC356140BE4E40048D4F0 /* RRFoundationLibraryTests */,
+				78DCC2EC140BE3620048D4F0 /* Frameworks */,
+				78DCC2EB140BE3620048D4F0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7877B4A613F4291B0088EFE0 /* Products */ = {
+		78DCC2EB140BE3620048D4F0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7877B4A513F4291B0088EFE0 /* RRFoundation.framework */,
-				7877B4BD13F4291B0088EFE0 /* RRFoundationTests.octest */,
+				78DCC2EA140BE3620048D4F0 /* RRFoundation.framework */,
+				78DCC302140BE3620048D4F0 /* RRFoundationTests.octest */,
+				78DCC33E140BE4E40048D4F0 /* libRRFoundation.a */,
+				78DCC34C140BE4E40048D4F0 /* RRFoundationLibraryTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7877B4A713F4291B0088EFE0 /* Frameworks */ = {
+		78DCC2EC140BE3620048D4F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				78843E2513F42CDC00B569D5 /* Foundation.framework */,
-				7877B4A813F4291B0088EFE0 /* Cocoa.framework */,
-				7877B4BE13F4291B0088EFE0 /* SenTestingKit.framework */,
-				7877B4AA13F4291B0088EFE0 /* Other Frameworks */,
+				78DCC2ED140BE3620048D4F0 /* Cocoa.framework */,
+				78DCC303140BE3620048D4F0 /* SenTestingKit.framework */,
+				78DCC33F140BE4E40048D4F0 /* Foundation.framework */,
+				78DCC2EF140BE3620048D4F0 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7877B4AA13F4291B0088EFE0 /* Other Frameworks */ = {
+		78DCC2EF140BE3620048D4F0 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7877B4AB13F4291B0088EFE0 /* AppKit.framework */,
-				7877B4AC13F4291B0088EFE0 /* CoreData.framework */,
-				7877B4AD13F4291B0088EFE0 /* Foundation.framework */,
+				78DCC2F0140BE3620048D4F0 /* AppKit.framework */,
+				78DCC2F1140BE3620048D4F0 /* CoreData.framework */,
+				78DCC2F2140BE3620048D4F0 /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		7877B4AE13F4291B0088EFE0 /* RRFoundation */ = {
+		78DCC2F3140BE3620048D4F0 /* RRFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				7877B4DA13F429E00088EFE0 /* RRFoundation.h */,
-				7877B4DC13F42A280088EFE0 /* RRAppName.h */,
-				7877B4DD13F42A280088EFE0 /* RRAppName.m */,
-				7868D2A513FA55AF00BBA1FC /* RRURLForAppDirectory.h */,
-				7868D2A613FA55AF00BBA1FC /* RRURLForAppDirectory.m */,
-				7877B4F313F42AEA0088EFE0 /* NSSet+RRFoundation.h */,
-				7877B4F413F42AEA0088EFE0 /* NSSet+RRFoundation.m */,
-				7877B4D613F4297F0088EFE0 /* NSRegularExpression+RRFoundation.h */,
-				7877B4D713F4297F0088EFE0 /* NSRegularExpression+RRFoundation.m */,
-				7840E72D13F512A100788234 /* NSBundle+RRFoundation.h */,
-				7840E72E13F512A100788234 /* NSBundle+RRFoundation.m */,
-				78EF6E9813F8746800138A8F /* Versioning.h */,
-				78EF6E9913F8746800138A8F /* Versioning.m */,
-				7877B4AF13F4291B0088EFE0 /* Supporting Files */,
+				78DCC2FA140BE3620048D4F0 /* RRFoundation.h */,
+				78DCC31F140BE45E0048D4F0 /* NSBundle+RRFoundation.h */,
+				78DCC320140BE45E0048D4F0 /* NSBundle+RRFoundation.m */,
+				78DCC321140BE45E0048D4F0 /* NSRegularExpression+RRFoundation.h */,
+				78DCC322140BE45E0048D4F0 /* NSRegularExpression+RRFoundation.m */,
+				78DCC323140BE45E0048D4F0 /* NSSet+RRFoundation.h */,
+				78DCC324140BE45E0048D4F0 /* NSSet+RRFoundation.m */,
+				78DCC325140BE45E0048D4F0 /* RRAppName.h */,
+				78DCC326140BE45E0048D4F0 /* RRAppName.m */,
+				78DCC327140BE45E0048D4F0 /* RRURLForAppDirectory.h */,
+				78DCC328140BE45E0048D4F0 /* RRURLForAppDirectory.m */,
+				78DCC329140BE45E0048D4F0 /* Versioning.h */,
+				78DCC32A140BE45E0048D4F0 /* Versioning.m */,
+				78DCC2F4140BE3620048D4F0 /* Supporting Files */,
 			);
 			path = RRFoundation;
 			sourceTree = "<group>";
 		};
-		7877B4AF13F4291B0088EFE0 /* Supporting Files */ = {
+		78DCC2F4140BE3620048D4F0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7877B4B013F4291B0088EFE0 /* RRFoundation-Info.plist */,
-				7877B4B113F4291B0088EFE0 /* InfoPlist.strings */,
-				7877B4B413F4291B0088EFE0 /* RRFoundation-Prefix.pch */,
+				78DCC2F5140BE3620048D4F0 /* RRFoundation-Info.plist */,
+				78DCC2F6140BE3620048D4F0 /* InfoPlist.strings */,
+				78DCC2F9140BE3620048D4F0 /* RRFoundation-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7877B4C413F4291B0088EFE0 /* RRFoundationTests */ = {
+		78DCC309140BE3620048D4F0 /* RRFoundationTests */ = {
 			isa = PBXGroup;
 			children = (
-				7877B4CA13F4291B0088EFE0 /* RRFoundationTests.h */,
-				7877B4CC13F4291B0088EFE0 /* RRFoundationTests.m */,
-				7877B4C513F4291B0088EFE0 /* Supporting Files */,
+				78DCC30F140BE3630048D4F0 /* RRFoundationTests.h */,
+				78DCC311140BE3630048D4F0 /* RRFoundationTests.m */,
+				78DCC30A140BE3630048D4F0 /* Supporting Files */,
 			);
 			path = RRFoundationTests;
 			sourceTree = "<group>";
 		};
-		7877B4C513F4291B0088EFE0 /* Supporting Files */ = {
+		78DCC30A140BE3630048D4F0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7877B4C613F4291B0088EFE0 /* RRFoundationTests-Info.plist */,
-				7877B4C713F4291B0088EFE0 /* InfoPlist.strings */,
+				78DCC30B140BE3630048D4F0 /* RRFoundationTests-Info.plist */,
+				78DCC30C140BE3630048D4F0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78DCC341140BE4E40048D4F0 /* RRFoundationLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				78DCC342140BE4E40048D4F0 /* Supporting Files */,
+			);
+			path = RRFoundationLibrary;
+			sourceTree = "<group>";
+		};
+		78DCC342140BE4E40048D4F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78DCC343140BE4E40048D4F0 /* RRFoundationLibrary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78DCC356140BE4E40048D4F0 /* RRFoundationLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				78DCC357140BE4E40048D4F0 /* Supporting Files */,
+			);
+			path = RRFoundationLibraryTests;
+			sourceTree = "<group>";
+		};
+		78DCC357140BE4E40048D4F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78DCC358140BE4E40048D4F0 /* RRFoundationLibraryTests-Info.plist */,
+				78DCC359140BE4E40048D4F0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -186,31 +272,45 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7877B4A213F4291B0088EFE0 /* Headers */ = {
+		78DCC2E7140BE3620048D4F0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7877B4D813F4297F0088EFE0 /* NSRegularExpression+RRFoundation.h in Headers */,
-				7877B4DB13F429E00088EFE0 /* RRFoundation.h in Headers */,
-				7877B4E013F42A280088EFE0 /* RRAppName.h in Headers */,
-				7877B4F513F42AEA0088EFE0 /* NSSet+RRFoundation.h in Headers */,
-				7840E72F13F512A100788234 /* NSBundle+RRFoundation.h in Headers */,
-				78EF6E9A13F8747600138A8F /* Versioning.h in Headers */,
-				7868D2A713FA55AF00BBA1FC /* RRURLForAppDirectory.h in Headers */,
+				78DCC32B140BE45F0048D4F0 /* NSBundle+RRFoundation.h in Headers */,
+				78DCC32D140BE45F0048D4F0 /* NSRegularExpression+RRFoundation.h in Headers */,
+				78DCC32F140BE45F0048D4F0 /* NSSet+RRFoundation.h in Headers */,
+				78DCC331140BE45F0048D4F0 /* RRAppName.h in Headers */,
+				78DCC333140BE45F0048D4F0 /* RRURLForAppDirectory.h in Headers */,
+				78DCC335140BE45F0048D4F0 /* Versioning.h in Headers */,
+				78DCC367140BE5540048D4F0 /* RRFoundation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78DCC33C140BE4E40048D4F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78DCC368140BE5590048D4F0 /* RRFoundation.h in Headers */,
+				78DCC369140BE5590048D4F0 /* NSBundle+RRFoundation.h in Headers */,
+				78DCC36B140BE5590048D4F0 /* NSRegularExpression+RRFoundation.h in Headers */,
+				78DCC36D140BE5590048D4F0 /* NSSet+RRFoundation.h in Headers */,
+				78DCC36F140BE5590048D4F0 /* RRAppName.h in Headers */,
+				78DCC371140BE5590048D4F0 /* RRURLForAppDirectory.h in Headers */,
+				78DCC373140BE5590048D4F0 /* Versioning.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7877B4A413F4291B0088EFE0 /* RRFoundation */ = {
+		78DCC2E9140BE3620048D4F0 /* RRFoundation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7877B4D013F4291B0088EFE0 /* Build configuration list for PBXNativeTarget "RRFoundation" */;
+			buildConfigurationList = 78DCC315140BE3630048D4F0 /* Build configuration list for PBXNativeTarget "RRFoundation" */;
 			buildPhases = (
-				7877B4A013F4291B0088EFE0 /* Sources */,
-				7877B4A113F4291B0088EFE0 /* Frameworks */,
-				7877B4A213F4291B0088EFE0 /* Headers */,
-				7877B4A313F4291B0088EFE0 /* Resources */,
+				78DCC2E5140BE3620048D4F0 /* Sources */,
+				78DCC2E6140BE3620048D4F0 /* Frameworks */,
+				78DCC2E7140BE3620048D4F0 /* Headers */,
+				78DCC2E8140BE3620048D4F0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -218,76 +318,135 @@
 			);
 			name = RRFoundation;
 			productName = RRFoundation;
-			productReference = 7877B4A513F4291B0088EFE0 /* RRFoundation.framework */;
+			productReference = 78DCC2EA140BE3620048D4F0 /* RRFoundation.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7877B4BC13F4291B0088EFE0 /* RRFoundationTests */ = {
+		78DCC301140BE3620048D4F0 /* RRFoundationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7877B4D313F4291B0088EFE0 /* Build configuration list for PBXNativeTarget "RRFoundationTests" */;
+			buildConfigurationList = 78DCC318140BE3630048D4F0 /* Build configuration list for PBXNativeTarget "RRFoundationTests" */;
 			buildPhases = (
-				7877B4B813F4291B0088EFE0 /* Sources */,
-				7877B4B913F4291B0088EFE0 /* Frameworks */,
-				7877B4BA13F4291B0088EFE0 /* Resources */,
-				7877B4BB13F4291B0088EFE0 /* ShellScript */,
+				78DCC2FD140BE3620048D4F0 /* Sources */,
+				78DCC2FE140BE3620048D4F0 /* Frameworks */,
+				78DCC2FF140BE3620048D4F0 /* Resources */,
+				78DCC300140BE3620048D4F0 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7877B4C213F4291B0088EFE0 /* PBXTargetDependency */,
+				78DCC307140BE3620048D4F0 /* PBXTargetDependency */,
 			);
 			name = RRFoundationTests;
 			productName = RRFoundationTests;
-			productReference = 7877B4BD13F4291B0088EFE0 /* RRFoundationTests.octest */;
+			productReference = 78DCC302140BE3620048D4F0 /* RRFoundationTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		78DCC33D140BE4E40048D4F0 /* RRFoundationLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78DCC360140BE4E40048D4F0 /* Build configuration list for PBXNativeTarget "RRFoundationLibrary" */;
+			buildPhases = (
+				78DCC33A140BE4E40048D4F0 /* Sources */,
+				78DCC33B140BE4E40048D4F0 /* Frameworks */,
+				78DCC33C140BE4E40048D4F0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RRFoundationLibrary;
+			productName = RRFoundationLibrary;
+			productReference = 78DCC33E140BE4E40048D4F0 /* libRRFoundation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		78DCC34B140BE4E40048D4F0 /* RRFoundationLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78DCC363140BE4E40048D4F0 /* Build configuration list for PBXNativeTarget "RRFoundationLibraryTests" */;
+			buildPhases = (
+				78DCC347140BE4E40048D4F0 /* Sources */,
+				78DCC348140BE4E40048D4F0 /* Frameworks */,
+				78DCC349140BE4E40048D4F0 /* Resources */,
+				78DCC34A140BE4E40048D4F0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78DCC354140BE4E40048D4F0 /* PBXTargetDependency */,
+			);
+			name = RRFoundationLibraryTests;
+			productName = RRFoundationLibraryTests;
+			productReference = 78DCC34C140BE4E40048D4F0 /* RRFoundationLibraryTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7877B49B13F4291B0088EFE0 /* Project object */ = {
+		78DCC2E0140BE3620048D4F0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				ORGANIZATIONNAME = "Pioneering Software, United Kingdom";
 			};
-			buildConfigurationList = 7877B49E13F4291B0088EFE0 /* Build configuration list for PBXProject "RRFoundation" */;
+			buildConfigurationList = 78DCC2E3140BE3620048D4F0 /* Build configuration list for PBXProject "RRFoundation" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7877B49913F4291B0088EFE0;
-			productRefGroup = 7877B4A613F4291B0088EFE0 /* Products */;
+			mainGroup = 78DCC2DE140BE3620048D4F0;
+			productRefGroup = 78DCC2EB140BE3620048D4F0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7877B4A413F4291B0088EFE0 /* RRFoundation */,
-				7877B4BC13F4291B0088EFE0 /* RRFoundationTests */,
+				78DCC2E9140BE3620048D4F0 /* RRFoundation */,
+				78DCC301140BE3620048D4F0 /* RRFoundationTests */,
+				78DCC33D140BE4E40048D4F0 /* RRFoundationLibrary */,
+				78DCC34B140BE4E40048D4F0 /* RRFoundationLibraryTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7877B4A313F4291B0088EFE0 /* Resources */ = {
+		78DCC2E8140BE3620048D4F0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7877B4B313F4291B0088EFE0 /* InfoPlist.strings in Resources */,
+				78DCC2F8140BE3620048D4F0 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7877B4BA13F4291B0088EFE0 /* Resources */ = {
+		78DCC2FF140BE3620048D4F0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7877B4C913F4291B0088EFE0 /* InfoPlist.strings in Resources */,
-				7877B4CB13F4291B0088EFE0 /* RRFoundationTests.h in Resources */,
+				78DCC30E140BE3630048D4F0 /* InfoPlist.strings in Resources */,
+				78DCC310140BE3630048D4F0 /* RRFoundationTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78DCC349140BE4E40048D4F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78DCC35B140BE4E40048D4F0 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7877B4BB13F4291B0088EFE0 /* ShellScript */ = {
+		78DCC300140BE3620048D4F0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		78DCC34A140BE4E40048D4F0 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -303,50 +462,84 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7877B4A013F4291B0088EFE0 /* Sources */ = {
+		78DCC2E5140BE3620048D4F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7877B4D913F4297F0088EFE0 /* NSRegularExpression+RRFoundation.m in Sources */,
-				7877B4E113F42A280088EFE0 /* RRAppName.m in Sources */,
-				7877B4F613F42AEA0088EFE0 /* NSSet+RRFoundation.m in Sources */,
-				7840E73013F512A100788234 /* NSBundle+RRFoundation.m in Sources */,
-				78EF6E9B13F8747600138A8F /* Versioning.m in Sources */,
-				7868D2A813FA55AF00BBA1FC /* RRURLForAppDirectory.m in Sources */,
+				78DCC32C140BE45F0048D4F0 /* NSBundle+RRFoundation.m in Sources */,
+				78DCC32E140BE45F0048D4F0 /* NSRegularExpression+RRFoundation.m in Sources */,
+				78DCC330140BE45F0048D4F0 /* NSSet+RRFoundation.m in Sources */,
+				78DCC332140BE45F0048D4F0 /* RRAppName.m in Sources */,
+				78DCC334140BE45F0048D4F0 /* RRURLForAppDirectory.m in Sources */,
+				78DCC336140BE45F0048D4F0 /* Versioning.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7877B4B813F4291B0088EFE0 /* Sources */ = {
+		78DCC2FD140BE3620048D4F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7877B4CD13F4291B0088EFE0 /* RRFoundationTests.m in Sources */,
+				78DCC312140BE3630048D4F0 /* RRFoundationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78DCC33A140BE4E40048D4F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78DCC36A140BE5590048D4F0 /* NSBundle+RRFoundation.m in Sources */,
+				78DCC36C140BE5590048D4F0 /* NSRegularExpression+RRFoundation.m in Sources */,
+				78DCC36E140BE5590048D4F0 /* NSSet+RRFoundation.m in Sources */,
+				78DCC370140BE5590048D4F0 /* RRAppName.m in Sources */,
+				78DCC372140BE5590048D4F0 /* RRURLForAppDirectory.m in Sources */,
+				78DCC374140BE5590048D4F0 /* Versioning.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78DCC347140BE4E40048D4F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78DCC366140BE5390048D4F0 /* RRFoundationTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7877B4C213F4291B0088EFE0 /* PBXTargetDependency */ = {
+		78DCC307140BE3620048D4F0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7877B4A413F4291B0088EFE0 /* RRFoundation */;
-			targetProxy = 7877B4C113F4291B0088EFE0 /* PBXContainerItemProxy */;
+			target = 78DCC2E9140BE3620048D4F0 /* RRFoundation */;
+			targetProxy = 78DCC306140BE3620048D4F0 /* PBXContainerItemProxy */;
+		};
+		78DCC354140BE4E40048D4F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78DCC33D140BE4E40048D4F0 /* RRFoundationLibrary */;
+			targetProxy = 78DCC353140BE4E40048D4F0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7877B4B113F4291B0088EFE0 /* InfoPlist.strings */ = {
+		78DCC2F6140BE3620048D4F0 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7877B4B213F4291B0088EFE0 /* en */,
+				78DCC2F7140BE3620048D4F0 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		7877B4C713F4291B0088EFE0 /* InfoPlist.strings */ = {
+		78DCC30C140BE3630048D4F0 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7877B4C813F4291B0088EFE0 /* en */,
+				78DCC30D140BE3630048D4F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		78DCC359140BE4E40048D4F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78DCC35A140BE4E40048D4F0 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -354,17 +547,16 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7877B4CE13F4291B0088EFE0 /* Debug */ = {
+		78DCC313140BE3630048D4F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 11.0;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_ENABLE_OBJC_GC = supported;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -378,66 +570,65 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
+				PUBLIC_HEADERS_FOLDER_PATH = "/include/$(PROJECT_NAME)";
 				SDKROOT = macosx;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = k;
 			};
 			name = Debug;
 		};
-		7877B4CF13F4291B0088EFE0 /* Release */ = {
+		78DCC314140BE3630048D4F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 11.0;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_ENABLE_OBJC_GC = supported;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PUBLIC_HEADERS_FOLDER_PATH = "/include/$(PROJECT_NAME)";
 				SDKROOT = macosx;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = k;
 			};
 			name = Release;
 		};
-		7877B4D113F4291B0088EFE0 /* Debug */ = {
+		78DCC316140BE3630048D4F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 11.0;
+				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RRFoundation/RRFoundation-Prefix.pch";
 				INFOPLIST_FILE = "RRFoundation/RRFoundation-Info.plist";
-				LOCAL_LIBRARY_DIR = "@executable_path/..";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
 		};
-		7877B4D213F4291B0088EFE0 /* Release */ = {
+		78DCC317140BE3630048D4F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 11.0;
+				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RRFoundation/RRFoundation-Prefix.pch";
 				INFOPLIST_FILE = "RRFoundation/RRFoundation-Info.plist";
-				LOCAL_LIBRARY_DIR = "@executable_path/..";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
 		};
-		7877B4D413F4291B0088EFE0 /* Debug */ = {
+		78DCC319140BE3630048D4F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
@@ -449,7 +640,7 @@
 			};
 			name = Debug;
 		};
-		7877B4D513F4291B0088EFE0 /* Release */ = {
+		78DCC31A140BE3630048D4F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
@@ -457,6 +648,80 @@
 				GCC_PREFIX_HEADER = "RRFoundation/RRFoundation-Prefix.pch";
 				INFOPLIST_FILE = "RRFoundationTests/RRFoundationTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		78DCC361140BE4E40048D4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/RRFoundationLibrary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RRFoundationLibrary/RRFoundationLibrary-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		78DCC362140BE4E40048D4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/RRFoundationLibrary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RRFoundationLibrary/RRFoundationLibrary-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78DCC364140BE4E40048D4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RRFoundationLibrary/RRFoundationLibrary-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "RRFoundationLibraryTests/RRFoundationLibraryTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		78DCC365140BE4E40048D4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RRFoundationLibrary/RRFoundationLibrary-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "RRFoundationLibraryTests/RRFoundationLibraryTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
@@ -464,34 +729,52 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7877B49E13F4291B0088EFE0 /* Build configuration list for PBXProject "RRFoundation" */ = {
+		78DCC2E3140BE3620048D4F0 /* Build configuration list for PBXProject "RRFoundation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7877B4CE13F4291B0088EFE0 /* Debug */,
-				7877B4CF13F4291B0088EFE0 /* Release */,
+				78DCC313140BE3630048D4F0 /* Debug */,
+				78DCC314140BE3630048D4F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7877B4D013F4291B0088EFE0 /* Build configuration list for PBXNativeTarget "RRFoundation" */ = {
+		78DCC315140BE3630048D4F0 /* Build configuration list for PBXNativeTarget "RRFoundation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7877B4D113F4291B0088EFE0 /* Debug */,
-				7877B4D213F4291B0088EFE0 /* Release */,
+				78DCC316140BE3630048D4F0 /* Debug */,
+				78DCC317140BE3630048D4F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7877B4D313F4291B0088EFE0 /* Build configuration list for PBXNativeTarget "RRFoundationTests" */ = {
+		78DCC318140BE3630048D4F0 /* Build configuration list for PBXNativeTarget "RRFoundationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7877B4D413F4291B0088EFE0 /* Debug */,
-				7877B4D513F4291B0088EFE0 /* Release */,
+				78DCC319140BE3630048D4F0 /* Debug */,
+				78DCC31A140BE3630048D4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78DCC360140BE4E40048D4F0 /* Build configuration list for PBXNativeTarget "RRFoundationLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78DCC361140BE4E40048D4F0 /* Debug */,
+				78DCC362140BE4E40048D4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78DCC363140BE4E40048D4F0 /* Build configuration list for PBXNativeTarget "RRFoundationLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78DCC364140BE4E40048D4F0 /* Debug */,
+				78DCC365140BE4E40048D4F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7877B49B13F4291B0088EFE0 /* Project object */;
+	rootObject = 78DCC2E0140BE3620048D4F0 /* Project object */;
 }
