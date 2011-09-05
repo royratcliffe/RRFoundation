@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		7812AF7F14153CE900DAF81D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78DCC30C140BE3630048D4F0 /* InfoPlist.strings */; };
-		78DCC2EE140BE3620048D4F0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCC2ED140BE3620048D4F0 /* Cocoa.framework */; };
+		78719AB314153F1600D102A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCC33F140BE4E40048D4F0 /* Foundation.framework */; };
+		78719AB414153F1700D102A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCC33F140BE4E40048D4F0 /* Foundation.framework */; };
 		78DCC2F8140BE3620048D4F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78DCC2F6140BE3620048D4F0 /* InfoPlist.strings */; };
 		78DCC304140BE3620048D4F0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCC303140BE3620048D4F0 /* SenTestingKit.framework */; };
-		78DCC305140BE3620048D4F0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCC2ED140BE3620048D4F0 /* Cocoa.framework */; };
 		78DCC308140BE3620048D4F0 /* RRFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCC2EA140BE3620048D4F0 /* RRFoundation.framework */; };
 		78DCC30E140BE3630048D4F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78DCC30C140BE3630048D4F0 /* InfoPlist.strings */; };
 		78DCC310140BE3630048D4F0 /* RRFoundationTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 78DCC30F140BE3630048D4F0 /* RRFoundationTests.h */; };
@@ -68,15 +68,11 @@
 
 /* Begin PBXFileReference section */
 		78DCC2EA140BE3620048D4F0 /* RRFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RRFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		78DCC2ED140BE3620048D4F0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		78DCC2F0140BE3620048D4F0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		78DCC2F1140BE3620048D4F0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		78DCC2F2140BE3620048D4F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		78DCC2F5140BE3620048D4F0 /* RRFoundation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RRFoundation-Info.plist"; sourceTree = "<group>"; };
 		78DCC2F7140BE3620048D4F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		78DCC2F9140BE3620048D4F0 /* RRFoundation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RRFoundation-Prefix.pch"; sourceTree = "<group>"; };
 		78DCC2FA140BE3620048D4F0 /* RRFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRFoundation.h; sourceTree = "<group>"; };
-		78DCC302140BE3620048D4F0 /* RRFoundationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RRFoundationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78DCC302140BE3620048D4F0 /* RRFoundationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = RRFoundationTests.octest; path = RRFoundationFrameworkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78DCC303140BE3620048D4F0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		78DCC30B140BE3630048D4F0 /* RRFoundationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RRFoundationTests-Info.plist"; sourceTree = "<group>"; };
 		78DCC30D140BE3630048D4F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -104,7 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78DCC2EE140BE3620048D4F0 /* Cocoa.framework in Frameworks */,
+				78719AB314153F1600D102A0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,8 +109,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				78DCC304140BE3620048D4F0 /* SenTestingKit.framework in Frameworks */,
-				78DCC305140BE3620048D4F0 /* Cocoa.framework in Frameworks */,
 				78DCC308140BE3620048D4F0 /* RRFoundation.framework in Frameworks */,
+				78719AB414153F1700D102A0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +159,6 @@
 		78DCC2EC140BE3620048D4F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				78DCC2ED140BE3620048D4F0 /* Cocoa.framework */,
 				78DCC303140BE3620048D4F0 /* SenTestingKit.framework */,
 				78DCC33F140BE4E40048D4F0 /* Foundation.framework */,
 				78DCC2EF140BE3620048D4F0 /* Other Frameworks */,
@@ -174,9 +169,6 @@
 		78DCC2EF140BE3620048D4F0 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				78DCC2F0140BE3620048D4F0 /* AppKit.framework */,
-				78DCC2F1140BE3620048D4F0 /* CoreData.framework */,
-				78DCC2F2140BE3620048D4F0 /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
 			sourceTree = "<group>";
