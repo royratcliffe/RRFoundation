@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'RRFoundationLibrary' target in the 'RRFoundationLibrary' project
-//
-
-#ifdef __OBJC__
-	#import <Foundation/Foundation.h>
-#endif

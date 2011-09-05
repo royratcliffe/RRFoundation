@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7812AF7F14153CE900DAF81D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78DCC30C140BE3630048D4F0 /* InfoPlist.strings */; };
 		78DCC2EE140BE3620048D4F0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCC2ED140BE3620048D4F0 /* Cocoa.framework */; };
 		78DCC2F8140BE3620048D4F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78DCC2F6140BE3620048D4F0 /* InfoPlist.strings */; };
 		78DCC304140BE3620048D4F0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCC303140BE3620048D4F0 /* SenTestingKit.framework */; };
@@ -31,7 +32,6 @@
 		78DCC34D140BE4E40048D4F0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCC303140BE3620048D4F0 /* SenTestingKit.framework */; };
 		78DCC350140BE4E40048D4F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCC33F140BE4E40048D4F0 /* Foundation.framework */; };
 		78DCC355140BE4E40048D4F0 /* libRRFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCC33E140BE4E40048D4F0 /* libRRFoundation.a */; };
-		78DCC35B140BE4E40048D4F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78DCC359140BE4E40048D4F0 /* InfoPlist.strings */; };
 		78DCC366140BE5390048D4F0 /* RRFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DCC311140BE3630048D4F0 /* RRFoundationTests.m */; };
 		78DCC367140BE5540048D4F0 /* RRFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 78DCC2FA140BE3620048D4F0 /* RRFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78DCC368140BE5590048D4F0 /* RRFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 78DCC2FA140BE3620048D4F0 /* RRFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -96,10 +96,7 @@
 		78DCC32A140BE45E0048D4F0 /* Versioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Versioning.m; sourceTree = "<group>"; };
 		78DCC33E140BE4E40048D4F0 /* libRRFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRRFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		78DCC33F140BE4E40048D4F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		78DCC343140BE4E40048D4F0 /* RRFoundationLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RRFoundationLibrary-Prefix.pch"; sourceTree = "<group>"; };
 		78DCC34C140BE4E40048D4F0 /* RRFoundationLibraryTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RRFoundationLibraryTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		78DCC358140BE4E40048D4F0 /* RRFoundationLibraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RRFoundationLibraryTests-Info.plist"; sourceTree = "<group>"; };
-		78DCC35A140BE4E40048D4F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,8 +144,6 @@
 			children = (
 				78DCC2F3140BE3620048D4F0 /* RRFoundation */,
 				78DCC309140BE3620048D4F0 /* RRFoundationTests */,
-				78DCC341140BE4E40048D4F0 /* RRFoundationLibrary */,
-				78DCC356140BE4E40048D4F0 /* RRFoundationLibraryTests */,
 				78DCC2EC140BE3620048D4F0 /* Frameworks */,
 				78DCC2EB140BE3620048D4F0 /* Products */,
 			);
@@ -236,39 +231,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		78DCC341140BE4E40048D4F0 /* RRFoundationLibrary */ = {
-			isa = PBXGroup;
-			children = (
-				78DCC342140BE4E40048D4F0 /* Supporting Files */,
-			);
-			path = RRFoundationLibrary;
-			sourceTree = "<group>";
-		};
-		78DCC342140BE4E40048D4F0 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				78DCC343140BE4E40048D4F0 /* RRFoundationLibrary-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		78DCC356140BE4E40048D4F0 /* RRFoundationLibraryTests */ = {
-			isa = PBXGroup;
-			children = (
-				78DCC357140BE4E40048D4F0 /* Supporting Files */,
-			);
-			path = RRFoundationLibraryTests;
-			sourceTree = "<group>";
-		};
-		78DCC357140BE4E40048D4F0 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				78DCC358140BE4E40048D4F0 /* RRFoundationLibraryTests-Info.plist */,
-				78DCC359140BE4E40048D4F0 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -303,9 +265,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		78DCC2E9140BE3620048D4F0 /* RRFoundation */ = {
+		78DCC2E9140BE3620048D4F0 /* RRFoundationFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 78DCC315140BE3630048D4F0 /* Build configuration list for PBXNativeTarget "RRFoundation" */;
+			buildConfigurationList = 78DCC315140BE3630048D4F0 /* Build configuration list for PBXNativeTarget "RRFoundationFramework" */;
 			buildPhases = (
 				78DCC2E5140BE3620048D4F0 /* Sources */,
 				78DCC2E6140BE3620048D4F0 /* Frameworks */,
@@ -316,14 +278,14 @@
 			);
 			dependencies = (
 			);
-			name = RRFoundation;
+			name = RRFoundationFramework;
 			productName = RRFoundation;
 			productReference = 78DCC2EA140BE3620048D4F0 /* RRFoundation.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		78DCC301140BE3620048D4F0 /* RRFoundationTests */ = {
+		78DCC301140BE3620048D4F0 /* RRFoundationFrameworkTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 78DCC318140BE3630048D4F0 /* Build configuration list for PBXNativeTarget "RRFoundationTests" */;
+			buildConfigurationList = 78DCC318140BE3630048D4F0 /* Build configuration list for PBXNativeTarget "RRFoundationFrameworkTests" */;
 			buildPhases = (
 				78DCC2FD140BE3620048D4F0 /* Sources */,
 				78DCC2FE140BE3620048D4F0 /* Frameworks */,
@@ -335,7 +297,7 @@
 			dependencies = (
 				78DCC307140BE3620048D4F0 /* PBXTargetDependency */,
 			);
-			name = RRFoundationTests;
+			name = RRFoundationFrameworkTests;
 			productName = RRFoundationTests;
 			productReference = 78DCC302140BE3620048D4F0 /* RRFoundationTests.octest */;
 			productType = "com.apple.product-type.bundle";
@@ -396,8 +358,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				78DCC2E9140BE3620048D4F0 /* RRFoundation */,
-				78DCC301140BE3620048D4F0 /* RRFoundationTests */,
+				78DCC2E9140BE3620048D4F0 /* RRFoundationFramework */,
+				78DCC301140BE3620048D4F0 /* RRFoundationFrameworkTests */,
 				78DCC33D140BE4E40048D4F0 /* RRFoundationLibrary */,
 				78DCC34B140BE4E40048D4F0 /* RRFoundationLibraryTests */,
 			);
@@ -426,7 +388,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78DCC35B140BE4E40048D4F0 /* InfoPlist.strings in Resources */,
+				7812AF7F14153CE900DAF81D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,7 +471,7 @@
 /* Begin PBXTargetDependency section */
 		78DCC307140BE3620048D4F0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 78DCC2E9140BE3620048D4F0 /* RRFoundation */;
+			target = 78DCC2E9140BE3620048D4F0 /* RRFoundationFramework */;
 			targetProxy = 78DCC306140BE3620048D4F0 /* PBXContainerItemProxy */;
 		};
 		78DCC354140BE4E40048D4F0 /* PBXTargetDependency */ = {
@@ -532,14 +494,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				78DCC30D140BE3630048D4F0 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		78DCC359140BE4E40048D4F0 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				78DCC35A140BE4E40048D4F0 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -609,7 +563,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RRFoundation/RRFoundation-Prefix.pch";
 				INFOPLIST_FILE = "RRFoundation/RRFoundation-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -623,7 +577,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RRFoundation/RRFoundation-Prefix.pch";
 				INFOPLIST_FILE = "RRFoundation/RRFoundation-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -658,7 +612,7 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/RRFoundationLibrary.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RRFoundationLibrary/RRFoundationLibrary-Prefix.pch";
+				GCC_PREFIX_HEADER = "RRFoundation/RRFoundation-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "-ObjC";
@@ -674,7 +628,7 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/RRFoundationLibrary.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RRFoundationLibrary/RRFoundationLibrary-Prefix.pch";
+				GCC_PREFIX_HEADER = "RRFoundation/RRFoundation-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "-ObjC";
@@ -694,9 +648,9 @@
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RRFoundationLibrary/RRFoundationLibrary-Prefix.pch";
+				GCC_PREFIX_HEADER = "RRFoundation/RRFoundation-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
-				INFOPLIST_FILE = "RRFoundationLibraryTests/RRFoundationLibraryTests-Info.plist";
+				INFOPLIST_FILE = "RRFoundationTests/RRFoundationTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -714,9 +668,9 @@
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RRFoundationLibrary/RRFoundationLibrary-Prefix.pch";
+				GCC_PREFIX_HEADER = "RRFoundation/RRFoundation-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
-				INFOPLIST_FILE = "RRFoundationLibraryTests/RRFoundationLibraryTests-Info.plist";
+				INFOPLIST_FILE = "RRFoundationTests/RRFoundationTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -738,7 +692,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		78DCC315140BE3630048D4F0 /* Build configuration list for PBXNativeTarget "RRFoundation" */ = {
+		78DCC315140BE3630048D4F0 /* Build configuration list for PBXNativeTarget "RRFoundationFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				78DCC316140BE3630048D4F0 /* Debug */,
@@ -747,7 +701,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		78DCC318140BE3630048D4F0 /* Build configuration list for PBXNativeTarget "RRFoundationTests" */ = {
+		78DCC318140BE3630048D4F0 /* Build configuration list for PBXNativeTarget "RRFoundationFrameworkTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				78DCC319140BE3630048D4F0 /* Debug */,
