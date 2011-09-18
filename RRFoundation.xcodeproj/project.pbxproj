@@ -72,7 +72,7 @@
 		78DCC2F7140BE3620048D4F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		78DCC2F9140BE3620048D4F0 /* RRFoundation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RRFoundation-Prefix.pch"; sourceTree = "<group>"; };
 		78DCC2FA140BE3620048D4F0 /* RRFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRFoundation.h; sourceTree = "<group>"; };
-		78DCC302140BE3620048D4F0 /* RRFoundationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = RRFoundationTests.octest; path = RRFoundationFrameworkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78DCC302140BE3620048D4F0 /* RRFoundationFrameworkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RRFoundationFrameworkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78DCC303140BE3620048D4F0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		78DCC30B140BE3630048D4F0 /* RRFoundationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RRFoundationTests-Info.plist"; sourceTree = "<group>"; };
 		78DCC30D140BE3630048D4F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -149,7 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				78DCC2EA140BE3620048D4F0 /* RRFoundation.framework */,
-				78DCC302140BE3620048D4F0 /* RRFoundationTests.octest */,
+				78DCC302140BE3620048D4F0 /* RRFoundationFrameworkTests.octest */,
 				78DCC33E140BE4E40048D4F0 /* libRRFoundation.a */,
 				78DCC34C140BE4E40048D4F0 /* RRFoundationLibraryTests.octest */,
 			);
@@ -291,7 +291,7 @@
 			);
 			name = RRFoundationFrameworkTests;
 			productName = RRFoundationTests;
-			productReference = 78DCC302140BE3620048D4F0 /* RRFoundationTests.octest */;
+			productReference = 78DCC302140BE3620048D4F0 /* RRFoundationFrameworkTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 		78DCC33D140BE4E40048D4F0 /* RRFoundationLibrary */ = {
