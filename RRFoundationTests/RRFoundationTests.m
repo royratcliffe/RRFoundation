@@ -23,25 +23,28 @@
 //------------------------------------------------------------------------------
 
 #import "RRFoundationTests.h"
-#import "NSRegularExpression+RRFoundation.h"
-#import "RRURLForAppDirectory.h"
+#import <RRFoundation/RRFoundation.h>
 
 @implementation RRFoundationTests
 
 - (void)setUp
 {
+#if !TARGET_OS_IPHONE
 	appIdentifier = [@"uk.co.pioneeringsoftware.RRFoundation" retain];
 	libraryPath = [[NSHomeDirectory() stringByAppendingPathComponent:@"Library"] retain];
 	cachesPath = [[libraryPath stringByAppendingPathComponent:@"Caches"] retain];
 	appCachesPath = [[cachesPath stringByAppendingPathComponent:appIdentifier] retain];
+#endif
 }
 
 - (void)tearDown
 {
+#if !TARGET_OS_IPHONE
 	[appIdentifier release];
 	[libraryPath release];
 	[cachesPath release];
 	[appCachesPath release];
+#endif
 }
 
 - (void)testRegularExpressions
@@ -51,6 +54,7 @@
 	}], @"active::Record::Errors", nil);
 }
 
+#if !TARGET_OS_IPHONE
 - (void)testURLForDirectory
 {
 	NSError *error = nil;
@@ -58,7 +62,9 @@
 	STAssertEqualObjects([appCachesURL path], appCachesPath, nil);
 	STAssertNil(error, @"%@", error);
 }
+#endif
 
+#if !TARGET_OS_IPHONE
 - (void)testURLForDirectoryButInsteadFindAFile
 {
 	NSError *error = nil;
@@ -70,5 +76,6 @@
 	STAssertEquals([error code], (NSInteger)kRRURLForAppDirectoryFoundFileError, nil);
 	STAssertTrue([fileManager removeItemAtPath:appCachesPath error:NULL], nil);
 }
+#endif
 
 @end

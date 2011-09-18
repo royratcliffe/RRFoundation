@@ -22,8 +22,6 @@
  *
  ******************************************************************************/
 
-#import <Foundation/Foundation.h>
-
 #import <RRFoundation/RRAppName.h>
 #import <RRFoundation/RRURLForAppDirectory.h>
 

@@ -24,7 +24,7 @@
 
 #import "NSRegularExpression+RRFoundation.h"
 
-@implementation NSRegularExpression (RRFoundation)
+@implementation NSRegularExpression(RRFoundation)
 
 - (NSString *)replaceMatchesInString:(NSString *)string replacementStringForResult:(NSString *(^)(NSTextCheckingResult *result, NSString *inString, NSInteger offset))replacementStringForResult
 {
