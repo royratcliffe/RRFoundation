@@ -557,6 +557,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RRFoundation/RRFoundation-Prefix.pch";
 				INFOPLIST_FILE = "RRFoundation/RRFoundation-Info.plist";
+				LOCAL_LIBRARY_DIR = "@executable_path/..";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -571,6 +572,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RRFoundation/RRFoundation-Prefix.pch";
 				INFOPLIST_FILE = "RRFoundation/RRFoundation-Info.plist";
+				LOCAL_LIBRARY_DIR = "@executable_path/..";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
