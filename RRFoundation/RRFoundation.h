@@ -25,6 +25,7 @@
 #import <RRFoundation/RRAppName.h>
 #import <RRFoundation/RRURLForAppDirectory.h>
 #import <RRFoundation/RRMultiReaderOneWriterArray.h>
+#import <RRFoundation/RRPremptiveSerialQueue.h>
 
 #import <RRFoundation/NSSet+RRFoundation.h>
 #import <RRFoundation/NSRegularExpression+RRFoundation.h>

@@ -14,6 +14,10 @@
 		78ACED9A14449C82009AF179 /* RRMultiReaderOneWriterArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 78ACED9714449C82009AF179 /* RRMultiReaderOneWriterArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78ACED9B14449C82009AF179 /* RRMultiReaderOneWriterArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ACED9814449C82009AF179 /* RRMultiReaderOneWriterArray.m */; };
 		78ACED9C14449C82009AF179 /* RRMultiReaderOneWriterArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ACED9814449C82009AF179 /* RRMultiReaderOneWriterArray.m */; };
+		78ACEDA31444AA06009AF179 /* RRPremptiveSerialQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 78ACEDA11444AA06009AF179 /* RRPremptiveSerialQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78ACEDA41444AA06009AF179 /* RRPremptiveSerialQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 78ACEDA11444AA06009AF179 /* RRPremptiveSerialQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78ACEDA51444AA06009AF179 /* RRPremptiveSerialQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ACEDA21444AA06009AF179 /* RRPremptiveSerialQueue.m */; };
+		78ACEDA61444AA06009AF179 /* RRPremptiveSerialQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ACEDA21444AA06009AF179 /* RRPremptiveSerialQueue.m */; };
 		78DCC2F8140BE3620048D4F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78DCC2F6140BE3620048D4F0 /* InfoPlist.strings */; };
 		78DCC304140BE3620048D4F0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCC303140BE3620048D4F0 /* SenTestingKit.framework */; };
 		78DCC308140BE3620048D4F0 /* RRFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCC2EA140BE3620048D4F0 /* RRFoundation.framework */; };
@@ -73,6 +77,8 @@
 /* Begin PBXFileReference section */
 		78ACED9714449C82009AF179 /* RRMultiReaderOneWriterArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRMultiReaderOneWriterArray.h; sourceTree = "<group>"; };
 		78ACED9814449C82009AF179 /* RRMultiReaderOneWriterArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRMultiReaderOneWriterArray.m; sourceTree = "<group>"; };
+		78ACEDA11444AA06009AF179 /* RRPremptiveSerialQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRPremptiveSerialQueue.h; sourceTree = "<group>"; };
+		78ACEDA21444AA06009AF179 /* RRPremptiveSerialQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRPremptiveSerialQueue.m; sourceTree = "<group>"; };
 		78DCC2EA140BE3620048D4F0 /* RRFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RRFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78DCC2F5140BE3620048D4F0 /* RRFoundation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RRFoundation-Info.plist"; sourceTree = "<group>"; };
 		78DCC2F7140BE3620048D4F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -195,6 +201,8 @@
 				78DCC328140BE45E0048D4F0 /* RRURLForAppDirectory.m */,
 				78ACED9714449C82009AF179 /* RRMultiReaderOneWriterArray.h */,
 				78ACED9814449C82009AF179 /* RRMultiReaderOneWriterArray.m */,
+				78ACEDA11444AA06009AF179 /* RRPremptiveSerialQueue.h */,
+				78ACEDA21444AA06009AF179 /* RRPremptiveSerialQueue.m */,
 				78DCC2F4140BE3620048D4F0 /* Supporting Files */,
 			);
 			path = RRFoundation;
@@ -246,6 +254,7 @@
 				78DCC335140BE45F0048D4F0 /* Versioning.h in Headers */,
 				78DCC367140BE5540048D4F0 /* RRFoundation.h in Headers */,
 				78ACED9914449C82009AF179 /* RRMultiReaderOneWriterArray.h in Headers */,
+				78ACEDA31444AA06009AF179 /* RRPremptiveSerialQueue.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +270,7 @@
 				78DCC371140BE5590048D4F0 /* RRURLForAppDirectory.h in Headers */,
 				78DCC373140BE5590048D4F0 /* Versioning.h in Headers */,
 				78ACED9A14449C82009AF179 /* RRMultiReaderOneWriterArray.h in Headers */,
+				78ACEDA41444AA06009AF179 /* RRPremptiveSerialQueue.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +448,7 @@
 				78DCC334140BE45F0048D4F0 /* RRURLForAppDirectory.m in Sources */,
 				78DCC336140BE45F0048D4F0 /* Versioning.m in Sources */,
 				78ACED9B14449C82009AF179 /* RRMultiReaderOneWriterArray.m in Sources */,
+				78ACEDA51444AA06009AF179 /* RRPremptiveSerialQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +471,7 @@
 				78DCC372140BE5590048D4F0 /* RRURLForAppDirectory.m in Sources */,
 				78DCC374140BE5590048D4F0 /* Versioning.m in Sources */,
 				78ACED9C14449C82009AF179 /* RRMultiReaderOneWriterArray.m in Sources */,
+				78ACEDA61444AA06009AF179 /* RRPremptiveSerialQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
