@@ -10,6 +10,10 @@
 		7812AF7F14153CE900DAF81D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78DCC30C140BE3630048D4F0 /* InfoPlist.strings */; };
 		78719AB314153F1600D102A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCC33F140BE4E40048D4F0 /* Foundation.framework */; };
 		78719AB414153F1700D102A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCC33F140BE4E40048D4F0 /* Foundation.framework */; };
+		78ACED9914449C82009AF179 /* RRMultiReaderOneWriterArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 78ACED9714449C82009AF179 /* RRMultiReaderOneWriterArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78ACED9A14449C82009AF179 /* RRMultiReaderOneWriterArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 78ACED9714449C82009AF179 /* RRMultiReaderOneWriterArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78ACED9B14449C82009AF179 /* RRMultiReaderOneWriterArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ACED9814449C82009AF179 /* RRMultiReaderOneWriterArray.m */; };
+		78ACED9C14449C82009AF179 /* RRMultiReaderOneWriterArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ACED9814449C82009AF179 /* RRMultiReaderOneWriterArray.m */; };
 		78DCC2F8140BE3620048D4F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78DCC2F6140BE3620048D4F0 /* InfoPlist.strings */; };
 		78DCC304140BE3620048D4F0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCC303140BE3620048D4F0 /* SenTestingKit.framework */; };
 		78DCC308140BE3620048D4F0 /* RRFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCC2EA140BE3620048D4F0 /* RRFoundation.framework */; };
@@ -67,6 +71,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		78ACED9714449C82009AF179 /* RRMultiReaderOneWriterArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRMultiReaderOneWriterArray.h; sourceTree = "<group>"; };
+		78ACED9814449C82009AF179 /* RRMultiReaderOneWriterArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRMultiReaderOneWriterArray.m; sourceTree = "<group>"; };
 		78DCC2EA140BE3620048D4F0 /* RRFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RRFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78DCC2F5140BE3620048D4F0 /* RRFoundation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RRFoundation-Info.plist"; sourceTree = "<group>"; };
 		78DCC2F7140BE3620048D4F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -187,6 +193,8 @@
 				78DCC326140BE45E0048D4F0 /* RRAppName.m */,
 				78DCC327140BE45E0048D4F0 /* RRURLForAppDirectory.h */,
 				78DCC328140BE45E0048D4F0 /* RRURLForAppDirectory.m */,
+				78ACED9714449C82009AF179 /* RRMultiReaderOneWriterArray.h */,
+				78ACED9814449C82009AF179 /* RRMultiReaderOneWriterArray.m */,
 				78DCC2F4140BE3620048D4F0 /* Supporting Files */,
 			);
 			path = RRFoundation;
@@ -237,6 +245,7 @@
 				78DCC333140BE45F0048D4F0 /* RRURLForAppDirectory.h in Headers */,
 				78DCC335140BE45F0048D4F0 /* Versioning.h in Headers */,
 				78DCC367140BE5540048D4F0 /* RRFoundation.h in Headers */,
+				78ACED9914449C82009AF179 /* RRMultiReaderOneWriterArray.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +260,7 @@
 				78DCC36F140BE5590048D4F0 /* RRAppName.h in Headers */,
 				78DCC371140BE5590048D4F0 /* RRURLForAppDirectory.h in Headers */,
 				78DCC373140BE5590048D4F0 /* Versioning.h in Headers */,
+				78ACED9A14449C82009AF179 /* RRMultiReaderOneWriterArray.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +437,7 @@
 				78DCC332140BE45F0048D4F0 /* RRAppName.m in Sources */,
 				78DCC334140BE45F0048D4F0 /* RRURLForAppDirectory.m in Sources */,
 				78DCC336140BE45F0048D4F0 /* Versioning.m in Sources */,
+				78ACED9B14449C82009AF179 /* RRMultiReaderOneWriterArray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +459,7 @@
 				78DCC370140BE5590048D4F0 /* RRAppName.m in Sources */,
 				78DCC372140BE5590048D4F0 /* RRURLForAppDirectory.m in Sources */,
 				78DCC374140BE5590048D4F0 /* Versioning.m in Sources */,
+				78ACED9C14449C82009AF179 /* RRMultiReaderOneWriterArray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
