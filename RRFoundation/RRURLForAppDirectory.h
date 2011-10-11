@@ -34,6 +34,7 @@ enum
 /*!
  * @brief Identifies, creating if necessary, an application-specific directory
  * in the user domain.
+ *
  * @details The search path directory argument typically specifies library,
  * caches or application support; specifically, NSLibraryDirectory,
  * NSCachesDirectory or NSApplicationSupportDirectory respectively. These are in
