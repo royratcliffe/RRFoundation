@@ -187,8 +187,6 @@
 				78DCC326140BE45E0048D4F0 /* RRAppName.m */,
 				78DCC327140BE45E0048D4F0 /* RRURLForAppDirectory.h */,
 				78DCC328140BE45E0048D4F0 /* RRURLForAppDirectory.m */,
-				78DCC329140BE45E0048D4F0 /* Versioning.h */,
-				78DCC32A140BE45E0048D4F0 /* Versioning.m */,
 				78DCC2F4140BE3620048D4F0 /* Supporting Files */,
 			);
 			path = RRFoundation;
@@ -197,6 +195,8 @@
 		78DCC2F4140BE3620048D4F0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				78DCC329140BE45E0048D4F0 /* Versioning.h */,
+				78DCC32A140BE45E0048D4F0 /* Versioning.m */,
 				78DCC2F5140BE3620048D4F0 /* RRFoundation-Info.plist */,
 				78DCC2F6140BE3620048D4F0 /* InfoPlist.strings */,
 				78DCC2F9140BE3620048D4F0 /* RRFoundation-Prefix.pch */,
@@ -500,7 +500,7 @@
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 12.0;
+				CURRENT_PROJECT_VERSION = 27.4;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -531,7 +531,7 @@
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 12.0;
+				CURRENT_PROJECT_VERSION = 27.4;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -552,12 +552,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 12.0;
+				DYLIB_CURRENT_VERSION = 27.4;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RRFoundation/RRFoundation-Prefix.pch";
 				INFOPLIST_FILE = "RRFoundation/RRFoundation-Info.plist";
-				LOCAL_LIBRARY_DIR = "@executable_path/..";
+				LD_DYLIB_INSTALL_NAME = "@executable_path/../Frameworks/$(EXECUTABLE_PATH)";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -567,12 +567,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 12.0;
+				DYLIB_CURRENT_VERSION = 27.4;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RRFoundation/RRFoundation-Prefix.pch";
 				INFOPLIST_FILE = "RRFoundation/RRFoundation-Info.plist";
-				LOCAL_LIBRARY_DIR = "@executable_path/..";
+				LD_DYLIB_INSTALL_NAME = "@executable_path/../Frameworks/$(EXECUTABLE_PATH)";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -609,8 +609,6 @@
 				DSTROOT = /tmp/RRFoundationLibrary.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RRFoundation/RRFoundation-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "/include/$(PROJECT_NAME)";
@@ -626,8 +624,6 @@
 				DSTROOT = /tmp/RRFoundationLibrary.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RRFoundation/RRFoundation-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "/include/$(PROJECT_NAME)";

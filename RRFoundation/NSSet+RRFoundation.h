@@ -26,8 +26,16 @@
 
 @interface NSSet(RRFoundation)
 
-- (NSSet *)setByIntersectingSet:(NSSet *)aSet;
-- (NSSet *)setByRemovingSet:(NSSet *)aSet;
-- (NSSet *)setByAddingSet:(NSSet *)aSet;
+- (NSSet *)setByIntersectWithSet:(NSSet *)aSet;
+
+- (NSSet *)setByMinusWithSet:(NSSet *)aSet;
+
+/*!
+ * @brief Forms and answers a new set by adding objects in the given set with
+ * the receiver.
+ * @details What is the difference between @c -setByUnionWithSet: and Apple's
+ * built-in @c -setByAddingObjectsFromSet:? Hopefully no difference.
+ */
+- (NSSet *)setByUnionWithSet:(NSSet *)aSet;
 
 @end

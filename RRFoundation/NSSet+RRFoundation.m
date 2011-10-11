@@ -31,21 +31,21 @@
 // self and the given set. Finally copy the mutable set back to a immutable copy
 // of the result.
 
-- (NSSet *)setByIntersectingSet:(NSSet *)aSet
+- (NSSet *)setByIntersectWithSet:(NSSet *)aSet
 {
 	NSMutableSet *set;
 	[set = [NSMutableSet setWithSet:self] intersectSet:aSet];
 	return [[set copy] autorelease];
 }
 
-- (NSSet *)setByRemovingSet:(NSSet *)aSet
+- (NSSet *)setByMinusWithSet:(NSSet *)aSet
 {
 	NSMutableSet *set;
 	[set = [NSMutableSet setWithSet:self] minusSet:aSet];
 	return [[set copy] autorelease];
 }
 
-- (NSSet *)setByAddingSet:(NSSet *)aSet
+- (NSSet *)setByUnionWithSet:(NSSet *)aSet
 {
 	NSMutableSet *set;
 	[set = [NSMutableSet setWithSet:self] unionSet:aSet];
