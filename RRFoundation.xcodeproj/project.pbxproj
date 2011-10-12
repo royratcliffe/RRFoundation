@@ -10,6 +10,7 @@
 		7812AF7F14153CE900DAF81D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78DCC30C140BE3630048D4F0 /* InfoPlist.strings */; };
 		78719AB314153F1600D102A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCC33F140BE4E40048D4F0 /* Foundation.framework */; };
 		78719AB414153F1700D102A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCC33F140BE4E40048D4F0 /* Foundation.framework */; };
+		78805F0814458D8000703E80 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78805F0614458D8000703E80 /* Localizable.strings */; };
 		78ACED9914449C82009AF179 /* RRMultiReaderOneWriterArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 78ACED9714449C82009AF179 /* RRMultiReaderOneWriterArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78ACED9A14449C82009AF179 /* RRMultiReaderOneWriterArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 78ACED9714449C82009AF179 /* RRMultiReaderOneWriterArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78ACED9B14449C82009AF179 /* RRMultiReaderOneWriterArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ACED9814449C82009AF179 /* RRMultiReaderOneWriterArray.m */; };
@@ -75,6 +76,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		78805F0714458D8000703E80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		78ACED9714449C82009AF179 /* RRMultiReaderOneWriterArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRMultiReaderOneWriterArray.h; sourceTree = "<group>"; };
 		78ACED9814449C82009AF179 /* RRMultiReaderOneWriterArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRMultiReaderOneWriterArray.m; sourceTree = "<group>"; };
 		78ACEDA11444AA06009AF179 /* RRPremptiveSerialQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRPremptiveSerialQueue.h; sourceTree = "<group>"; };
@@ -215,6 +217,7 @@
 				78DCC32A140BE45E0048D4F0 /* Versioning.m */,
 				78DCC2F5140BE3620048D4F0 /* RRFoundation-Info.plist */,
 				78DCC2F6140BE3620048D4F0 /* InfoPlist.strings */,
+				78805F0614458D8000703E80 /* Localizable.strings */,
 				78DCC2F9140BE3620048D4F0 /* RRFoundation-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -385,6 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78DCC2F8140BE3620048D4F0 /* InfoPlist.strings in Resources */,
+				78805F0814458D8000703E80 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +503,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		78805F0614458D8000703E80 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78805F0714458D8000703E80 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		78DCC2F6140BE3620048D4F0 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
