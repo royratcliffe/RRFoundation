@@ -37,4 +37,7 @@
 - (void)dispatchAsync:(dispatch_block_t)block;
 - (void)dispatchPreemptAsync:(dispatch_block_t)block;
 
+- (dispatch_queue_t)preemptiveSerialQueue;
+- (dispatch_queue_t)preemptingSerialQueue;
+
 @end

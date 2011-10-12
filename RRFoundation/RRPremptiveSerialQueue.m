@@ -71,6 +71,16 @@
 	});
 }
 
+- (dispatch_queue_t)preemptiveSerialQueue
+{
+	return _preemptive_serial_queue;
+}
+
+- (dispatch_queue_t)preemptingSerialQueue
+{
+	return _preempting_serial_queue;
+}
+
 - (void)dealloc
 {
 	dispatch_release(_preemptive_serial_queue);
