@@ -24,7 +24,7 @@
 
 #import <Foundation/Foundation.h>
 
-extern NSString *const kRRURLForAppDirectoryErrorDomain;
+extern NSString *const RRURLForAppDirectoryErrorDomain;
 
 enum
 {

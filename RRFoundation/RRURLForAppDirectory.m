@@ -24,7 +24,7 @@
 
 #import "RRURLForAppDirectory.h"
 
-NSString *const kRRURLForAppDirectoryErrorDomain = @"uk.co.pioneeringsoftware.RRURLForAppDirectoryError";
+NSString *const RRURLForAppDirectoryErrorDomain = @"uk.co.pioneeringsoftware.RRURLForAppDirectoryError";
 
 NSURL *RRURLForAppDirectoryInUserDomain(NSSearchPathDirectory directory, NSString *appIdentifier, NSError **outError)
 {
@@ -51,7 +51,7 @@ NSURL *RRURLForAppDirectoryInUserDomain(NSSearchPathDirectory directory, NSStrin
 		}
 		else if (![[resourceValues objectForKey:NSURLIsDirectoryKey] boolValue])
 		{
-			error = [NSError errorWithDomain:kRRURLForAppDirectoryErrorDomain code:kRRURLForAppDirectoryFoundFileError userInfo:[NSDictionary dictionaryWithObject:[NSString stringWithFormat:NSLocalizedString(@"Expected to find a folder to store application-specific information but instead found a file (%@)", @"Localised description of URL for app directory found-a-file error"), [appDirectoryURL path]] forKey:NSLocalizedDescriptionKey]];
+			error = [NSError errorWithDomain:RRURLForAppDirectoryErrorDomain code:kRRURLForAppDirectoryFoundFileError userInfo:[NSDictionary dictionaryWithObject:[NSString stringWithFormat:NSLocalizedString(@"Expected to find a folder to store application-specific information but instead found a file (%@)", @"Localised description of URL for app directory found-a-file error"), [appDirectoryURL path]] forKey:NSLocalizedDescriptionKey]];
 			continue;
 		}
 		return appDirectoryURL;

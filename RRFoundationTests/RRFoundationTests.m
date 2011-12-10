@@ -72,7 +72,7 @@
 	[fileManager removeItemAtPath:appCachesPath error:&error];
 	STAssertTrue([fileManager createFileAtPath:appCachesPath contents:[NSData data] attributes:nil], nil);
 	STAssertNil(RRURLForAppDirectoryInUserDomain(NSCachesDirectory, appIdentifier, &error), nil);
-	STAssertEqualObjects([error domain], kRRURLForAppDirectoryErrorDomain, nil);
+	STAssertEqualObjects([error domain], RRURLForAppDirectoryErrorDomain, nil);
 	STAssertEquals([error code], (NSInteger)kRRURLForAppDirectoryFoundFileError, nil);
 	STAssertTrue([fileManager removeItemAtPath:appCachesPath error:NULL], nil);
 }
