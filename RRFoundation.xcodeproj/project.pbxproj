@@ -11,6 +11,10 @@
 		78719AB314153F1600D102A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCC33F140BE4E40048D4F0 /* Foundation.framework */; };
 		78719AB414153F1700D102A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DCC33F140BE4E40048D4F0 /* Foundation.framework */; };
 		78805F0814458D8000703E80 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78805F0614458D8000703E80 /* Localizable.strings */; };
+		78A9B8241589108900FEFFA8 /* RRInputOutputStreamPair.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A9B8221589108900FEFFA8 /* RRInputOutputStreamPair.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78A9B8251589108900FEFFA8 /* RRInputOutputStreamPair.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A9B8221589108900FEFFA8 /* RRInputOutputStreamPair.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78A9B8261589108900FEFFA8 /* RRInputOutputStreamPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A9B8231589108900FEFFA8 /* RRInputOutputStreamPair.m */; };
+		78A9B8271589108900FEFFA8 /* RRInputOutputStreamPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A9B8231589108900FEFFA8 /* RRInputOutputStreamPair.m */; };
 		78ACED9914449C82009AF179 /* RRMultiReaderOneWriterArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 78ACED9714449C82009AF179 /* RRMultiReaderOneWriterArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78ACED9A14449C82009AF179 /* RRMultiReaderOneWriterArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 78ACED9714449C82009AF179 /* RRMultiReaderOneWriterArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78ACED9B14449C82009AF179 /* RRMultiReaderOneWriterArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 78ACED9814449C82009AF179 /* RRMultiReaderOneWriterArray.m */; };
@@ -77,6 +81,8 @@
 
 /* Begin PBXFileReference section */
 		78805F0714458D8000703E80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		78A9B8221589108900FEFFA8 /* RRInputOutputStreamPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRInputOutputStreamPair.h; sourceTree = "<group>"; };
+		78A9B8231589108900FEFFA8 /* RRInputOutputStreamPair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRInputOutputStreamPair.m; sourceTree = "<group>"; };
 		78ACED9714449C82009AF179 /* RRMultiReaderOneWriterArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRMultiReaderOneWriterArray.h; sourceTree = "<group>"; };
 		78ACED9814449C82009AF179 /* RRMultiReaderOneWriterArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRMultiReaderOneWriterArray.m; sourceTree = "<group>"; };
 		78ACEDA11444AA06009AF179 /* RRPremptiveSerialQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRPremptiveSerialQueue.h; sourceTree = "<group>"; };
@@ -205,6 +211,8 @@
 				78ACED9814449C82009AF179 /* RRMultiReaderOneWriterArray.m */,
 				78ACEDA11444AA06009AF179 /* RRPremptiveSerialQueue.h */,
 				78ACEDA21444AA06009AF179 /* RRPremptiveSerialQueue.m */,
+				78A9B8221589108900FEFFA8 /* RRInputOutputStreamPair.h */,
+				78A9B8231589108900FEFFA8 /* RRInputOutputStreamPair.m */,
 				78DCC2F4140BE3620048D4F0 /* Supporting Files */,
 			);
 			path = RRFoundation;
@@ -258,6 +266,7 @@
 				78DCC367140BE5540048D4F0 /* RRFoundation.h in Headers */,
 				78ACED9914449C82009AF179 /* RRMultiReaderOneWriterArray.h in Headers */,
 				78ACEDA31444AA06009AF179 /* RRPremptiveSerialQueue.h in Headers */,
+				78A9B8241589108900FEFFA8 /* RRInputOutputStreamPair.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +283,7 @@
 				78DCC373140BE5590048D4F0 /* Versioning.h in Headers */,
 				78ACED9A14449C82009AF179 /* RRMultiReaderOneWriterArray.h in Headers */,
 				78ACEDA41444AA06009AF179 /* RRPremptiveSerialQueue.h in Headers */,
+				78A9B8251589108900FEFFA8 /* RRInputOutputStreamPair.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +463,7 @@
 				78DCC336140BE45F0048D4F0 /* Versioning.m in Sources */,
 				78ACED9B14449C82009AF179 /* RRMultiReaderOneWriterArray.m in Sources */,
 				78ACEDA51444AA06009AF179 /* RRPremptiveSerialQueue.m in Sources */,
+				78A9B8261589108900FEFFA8 /* RRInputOutputStreamPair.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +487,7 @@
 				78DCC374140BE5590048D4F0 /* Versioning.m in Sources */,
 				78ACED9C14449C82009AF179 /* RRMultiReaderOneWriterArray.m in Sources */,
 				78ACEDA61444AA06009AF179 /* RRPremptiveSerialQueue.m in Sources */,
+				78A9B8271589108900FEFFA8 /* RRInputOutputStreamPair.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
