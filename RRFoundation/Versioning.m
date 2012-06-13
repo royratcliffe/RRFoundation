@@ -32,10 +32,7 @@ NSString *RRFoundationVersionString()
 	static NSString *versionString;
 	if (versionString == nil)
 	{
-		versionString = [[[NSString stringWithCString:(const char *)kRRFoundationVersionString encoding:NSUTF8StringEncoding] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] retain];
-		atexit_b(^(void) {
-			[versionString release];
-		});
+		versionString = [[NSString stringWithCString:(const char *)kRRFoundationVersionString encoding:NSUTF8StringEncoding] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 	}
 	return versionString;
 }

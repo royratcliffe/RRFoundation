@@ -40,8 +40,6 @@
 - (void)dealloc
 {
 	dispatch_release(_concurrentQueue);
-	[_mutableArray release];
-	[super dealloc];
 }
 
 - (NSUInteger)count

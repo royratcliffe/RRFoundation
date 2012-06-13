@@ -359,7 +359,7 @@
 		78DCC2E0140BE3620048D4F0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = "Pioneering Software, United Kingdom";
 			};
 			buildConfigurationList = 78DCC2E3140BE3620048D4F0 /* Build configuration list for PBXProject "RRFoundation" */;
@@ -535,6 +535,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 29.2;
@@ -565,6 +566,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 29.2;
@@ -586,11 +588,13 @@
 		78DCC316140BE3630048D4F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 29.2;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RRFoundation/RRFoundation-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "RRFoundation/RRFoundation-Info.plist";
 				LD_DYLIB_INSTALL_NAME = "@executable_path/../Frameworks/$(EXECUTABLE_PATH)";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
@@ -601,11 +605,13 @@
 		78DCC317140BE3630048D4F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 29.2;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RRFoundation/RRFoundation-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "RRFoundation/RRFoundation-Info.plist";
 				LD_DYLIB_INSTALL_NAME = "@executable_path/../Frameworks/$(EXECUTABLE_PATH)";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
@@ -616,9 +622,11 @@
 		78DCC319140BE3630048D4F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RRFoundation/RRFoundation-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "RRFoundationTests/RRFoundationTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
@@ -628,9 +636,11 @@
 		78DCC31A140BE3630048D4F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RRFoundation/RRFoundation-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "RRFoundationTests/RRFoundationTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
@@ -644,6 +654,7 @@
 				DSTROOT = /tmp/RRFoundationLibrary.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RRFoundation/RRFoundation-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "/include/$(PROJECT_NAME)";
@@ -659,6 +670,7 @@
 				DSTROOT = /tmp/RRFoundationLibrary.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RRFoundation/RRFoundation-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "/include/$(PROJECT_NAME)";
@@ -678,6 +690,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RRFoundation/RRFoundation-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "RRFoundationTests/RRFoundationTests-Info.plist";
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -696,6 +709,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RRFoundation/RRFoundation-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "RRFoundationTests/RRFoundationTests-Info.plist";
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";

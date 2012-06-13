@@ -30,20 +30,16 @@
 - (void)setUp
 {
 #if !TARGET_OS_IPHONE
-	appIdentifier = [@"uk.co.pioneeringsoftware.RRFoundation" retain];
-	libraryPath = [[NSHomeDirectory() stringByAppendingPathComponent:@"Library"] retain];
-	cachesPath = [[libraryPath stringByAppendingPathComponent:@"Caches"] retain];
-	appCachesPath = [[cachesPath stringByAppendingPathComponent:appIdentifier] retain];
+	appIdentifier = @"uk.co.pioneeringsoftware.RRFoundation";
+	libraryPath = [NSHomeDirectory() stringByAppendingPathComponent:@"Library"];
+	cachesPath = [libraryPath stringByAppendingPathComponent:@"Caches"];
+	appCachesPath = [cachesPath stringByAppendingPathComponent:appIdentifier];
 #endif
 }
 
 - (void)tearDown
 {
 #if !TARGET_OS_IPHONE
-	[appIdentifier release];
-	[libraryPath release];
-	[cachesPath release];
-	[appCachesPath release];
 #endif
 }
 

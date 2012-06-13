@@ -35,21 +35,21 @@
 {
 	NSMutableSet *set;
 	[set = [NSMutableSet setWithSet:self] intersectSet:aSet];
-	return [[set copy] autorelease];
+	return [set copy];
 }
 
 - (NSSet *)setByMinusWithSet:(NSSet *)aSet
 {
 	NSMutableSet *set;
 	[set = [NSMutableSet setWithSet:self] minusSet:aSet];
-	return [[set copy] autorelease];
+	return [set copy];
 }
 
 - (NSSet *)setByUnionWithSet:(NSSet *)aSet
 {
 	NSMutableSet *set;
 	[set = [NSMutableSet setWithSet:self] unionSet:aSet];
-	return [[set copy] autorelease];
+	return [set copy];
 }
 
 @end

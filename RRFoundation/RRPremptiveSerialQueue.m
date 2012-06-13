@@ -85,7 +85,6 @@
 {
 	dispatch_release(_preemptive_serial_queue);
 	dispatch_release(_preempting_serial_queue);
-	[super dealloc];
 }
 
 @end
